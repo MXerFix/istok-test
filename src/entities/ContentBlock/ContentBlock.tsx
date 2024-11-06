@@ -10,7 +10,7 @@ type Props = {
   size?: "small" | "medium" | "large"
 }
 
-const baseStyles = "w-full rounded-[114px] relative border-2 border-black"
+const baseStyles = "w-full rounded-[114px] relative"
 
 const positionVariants = {
   left: "left-0",
@@ -41,8 +41,8 @@ const ContentBlock = ({
   return (
     <div className={cn(baseStyles, colorVariants[color], sizeVariants[size], className)}>
       <Pattern
-        className={cn("absolute h-full", positionVariants[backLogoPosition])}
-        fill={`hsl(var(--primary-${color}-darker))`}
+        className={cn("absolute h-full w-max", positionVariants[backLogoPosition])}
+        fill={`hsl(var(--primary-${color}-dark))`}
       />
       <div className='relative px-40 py-16 z-10'>{children}</div>
     </div>

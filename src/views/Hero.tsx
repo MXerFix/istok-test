@@ -11,7 +11,7 @@ const Hero = () => {
       <div className='px-40 w-full grid grid-cols-2'>
         <div className=''>
           <h2 className='text-4xl leading-none font-bold flex items-start justify-start flex-wrap gap-2'>
-            {["Интеллектуальная", "система", "тестирования", "общеязыковых", "компетенций"].map(
+            {["Интеллектуальная", "Система", "Тестирования", "Общеязыковых", "Компетенций"].map(
               (word, index) => (
                 <p
                   key={index}
@@ -23,13 +23,13 @@ const Hero = () => {
           </h2>
           <h1 className='text-[180px] font-semibold leading-[0] mt-16 mb-24'>
             <span className='text-primary-blue'>ист</span>
-            <span className='text-primary-orange'>ок</span>
+            <span className='text-primary-orange'>.ок</span>
           </h1>
-          <p className='font-semibold text-2xl mb-10'>
+          <p className='font-semibold text-2xl mb-16'>
             Основана на базе отечественных <br /> технологических и методологических разработок
           </p>
 
-          <Link href={"/test"} className='relative text-2xl font-semibold px-6 py-4'>
+          <Link href={"/test"} className='relative text-2xl font-semibold px-6 py-4 bg-primary-blue text-white rounded-full hover:bg-primary-blue-dark transition-colors'>
             Пройти демо-тест
             <span className='absolute -z-10 -top-4 -right-4 size-16 rounded-full bg-primary-orange block' />
           </Link>
@@ -43,7 +43,7 @@ const Hero = () => {
             text='вузов партнеров апробировавших тестирование'
           />
           <HeroCard
-            number={"10000+"}
+            number={"12000+"}
             text={
               <>
                 человек <br /> уже прошли тестирование

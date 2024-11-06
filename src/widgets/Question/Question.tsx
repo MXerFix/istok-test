@@ -89,7 +89,7 @@ const Question = ({ question, part, onAnswer }: QuestionProps) => {
                   key={part}
                   controls>
                   <source
-                    src={`${window.location.origin}/${question.contents[part - 1].url}`}
+                    src={`${window.location.origin}/${question.contents[0].url}`}
                     type='audio/mpeg'
                   />
                   Your browser does not support the audio element.

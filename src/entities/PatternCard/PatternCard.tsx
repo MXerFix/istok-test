@@ -38,7 +38,7 @@ const PatternCard = ({
         className
       )}>
       <Pattern
-        fill={`hsl(var(--primary-${color}-darker))`}
+        fill={`hsl(var(--primary-${color}-dark))`}
         className={cn("absolute h-[150%] top-0", positionVariants[backLogoPosition])}
       />
       <div className='relative z-10'>

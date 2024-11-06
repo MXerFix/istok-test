@@ -1,14 +1,14 @@
 [
   {
     "name": "Task 0",
-    "level": "A2",
+    "level": "B1",
     "task_number": 0,
     "variant": 1,
     "type": "listening",
     "contents": [
       {
         "type": "audio",
-        "url": "0_listening.mp3"
+        "url": "0.mp3"
       }
     ],
     "parts": [
@@ -83,11 +83,7 @@
     "contents": [
       {
         "type": "audio",
-        "url": "A2_part1_listening.mp3"
-      },
-      {
-        "type": "audio",
-        "url": "A2_part1_listening.mp3"
+        "url": "A2.mp3"
       }
     ],
     "parts": [
@@ -172,106 +168,263 @@
     ]
   },
   {
-    "name": "Task 0",
-    "level": "A2",
-    "task_number": 2,
+    "name": "Task 1",
+    "level": "B1",
+    "task_number": 1,
     "variant": 1,
-    "type": "reading",
+    "type": "listening",
     "contents": [
       {
-        "type": "paragraph",
-        "text": "Jules Vernes (1828-1905), one of the greatest adventure and science fiction writers of all times, was born in the port city of Nantes in France. As a boy, he was fascinated by ships and dreamed about sea adventures. He heard a lot of such stories from his first teacher and from various sailors from the port. There is a story, maybe a fictional one, that at the age 11 he intended to become a cabin-boy on a ship but was stopped by his parents.  His favourite childhood book is thought to have been Robinson Crusoe.  The motive of a lonely man on an isolated island later will appear in some of his books.  "
-      },
-      {
-        "type": "paragraph",
-        "text": "However, his family had a clear idea of his future career, because his father was a well-known local lawyer. Jules had studied law both in Nantes and in Paris until he got his degree in 1851. But even before that he achieved his first literary success: his friend Alexandre Dumas-son produced Verne’s first play in his theatre in 1850. Having become a professional lawyer, Jules never seriously worked in this area. He was employed by a magazine as a writer and published articles on travel, history, and science. At the same time, he began writing short stories and later  novels"
-      },
-      {
-        "type": "paragraph",
-        "text": "Writing, however, was not an occupation that could guarantee financial stability and prosperity. The family of the girl Jules fell in love with, did not allow the young people to marry. This left him heartbroken and made him write poetry. So, as it can be seen, he tried himself in many literary genres but that did not make him financially stable. When he met his future wife, Honorine, in 1856, Jules had to start working in her father’s business to guarantee the family’s permission to marry his love."
-      },
-      {
-        "type": "paragraph",
-        "text": "The change in Jules Verne’s literary career came in 1860 when he met Pierre-Jules Hetzel, a wealthy and successful publisher who worked with the greatest French writers of that time. Hetzel saw a huge potential in the young author and even launched a new magazine where he published  of Jules Verne’s first adventure novel by separate chapters. This collaboration finally allowed Vernes to concentrate fully on his literary work."
-      },
-      {
-        "type": "paragraph",
-        "text": "Such novels as  Twenty Thousand Leagues Under the Sea , Around the World in Eighty Days, Captain Grant’s Children brought him the global popularity. Jules Verne is sometimes called the founder of the science fiction genre. He predicted many things – such as space flights and submarines.  His fame was so big that people tried to copy things described in his novels. For example, several people undertook to repeat the round-the-world trip described by Verne. Nancy Bly managed to make it in 72 days – in less than Verne’s characters."
+        "type": "audio",
+        "url": "B1.mp3"
       }
     ],
     "parts": [
       {
-        "name": "Reading. Questions 1-5.",
-        "exercise": "Read the text and match the headings (A-F) with the paragraphs (1-5). There is one extra heading which you will not need.",
-        "type": "match-paragraphs",
+        "name": "Listening. Part 1. Questions 1-10.",
+        "exercise": "Listen to the lecture about Alan Turing and fill in the gaps  (1-10). Use no more than two words or a number.",
+        "type": "filling-gaps-forms",
         "contents": [
           {
-            "type": "heading",
-            "text": "A new genre"
+            "type": "gaps-text",
+            "text": "The film Imitation Game is about breaking the German secret {(1)} during the war. "
           },
           {
-            "type": "heading",
-            "text": "An important partnership"
+            "type": "gaps-text",
+            "text": "Alan Turing studied at {(2)}"
           },
           {
-            "type": "heading",
-            "text": "Dreams about the sea"
+            "type": "gaps-text",
+            "text": "His first work was published in {(3)}"
           },
           {
-            "type": "heading",
-            "text": "Law or literature?"
+            "type": "gaps-text",
+            "text": "Turing was one of the pioneers of {(4)}"
           },
           {
-            "type": "heading",
-            "text": "Fame"
+            "type": "gaps-text",
+            "text": "The Turing machine worked in the same way as modern {(5)}"
           },
           {
-            "type": "heading",
-            "text": "Love and money"
+            "type": "gaps-text",
+            "text": "Enigma was the German coding {(6)}"
+          },
+          {
+            "type": "gaps-text",
+            "text": "It is possible that due to Turing’s inventions, the war in {(7)} finished earlier than it could."
+          },
+          {
+            "type": "gaps-text",
+            "text": "Manchester University began developing computers in {(8)}"
+          },
+          {
+            "type": "gaps-text",
+            "text": " Turing was one of the first to study {(9)}"
+          },
+          {
+            "type": "gaps-text",
+            "text": "He died when he was only {(10)}"
           }
         ],
-        "answers": ["a", "b", "c", "d", "e", "f"],
         "keys": {
-          "1": "c",
-          "2": "d",
-          "3": "f",
-          "4": "b",
-          "5": "e"
+          "1": "code",
+          "2": "Cambridge university",
+          "3": "1936",
+          "4": "computer science",
+          "5": ["computers", "digital computers"],
+          "6": "system",
+          "7": "Europe",
+          "8": "1947",
+          "9": ["artificial intelligence", "AI"],
+          "10": "41"
         }
-      },
+      }
+    ]
+  },
+  {
+    "name": "Task 1",
+    "level": "B2",
+    "task_number": 1,
+    "variant": 1,
+    "type": "listening",
+    "contents": [
       {
-        "name": "Reading. Questions 6-10.",
-        "type": "short-answer-questions",
-        "exercise": "Answer the questions. Write no more than THREE words from the text. Do NOT change the words from the text.",
-        "example": "Example:  What was Jules impressed by when he was a boy? Answer: ships",
+        "type": "audio",
+        "url": "B2.mp3"
+      }
+    ],
+    "parts": [
+      {
+        "name": "Listening. Part 1. Questions 1-10.",
+        "exercise": "Listen to the information about James Watt and the steam engine. Fill in the gaps (1-10) with information from the text. Use no more than three words or a number .",
+        "type": "filling-gaps-forms",
         "contents": [
           {
-            "type": "question",
-            "question": "Who stopped Jules from working on a ship?"
+            "type": "gaps-text",
+            "text": "Watt’s childhood interest was building {(1)}"
           },
           {
-            "type": "question",
-            "question": "What did he write for the magazine?"
+            "type": "gaps-text",
+            "text": "Glasgow University {(2)} realised that James was very talented."
           },
           {
-            "type": "question",
-            "question": "What did Verne write after he wasn’t allowed to marry?"
+            "type": "gaps-text",
+            "text": "Watts spent a year with a London {(3)} maker."
           },
           {
-            "type": "question",
-            "question": "What did Hetzel notice in the young author?"
+            "type": "gaps-text",
+            "text": "Watts began working at his steam engine in {(4)}"
           },
           {
-            "type": "question",
-            "question": "What did Jules Verne achieve due to his novels?"
+            "type": "gaps-text",
+            "text": "Looking at washers, Watt realised that the steam engine needed a {(5)} condenser."
+          },
+          {
+            "type": "gaps-text",
+            "text": "Watt’s modesty made it difficult for him to promote his invention to {(6)}"
+          },
+          {
+            "type": "gaps-text",
+            "text": "Glasgow University professors put Watts in contact with a {(7)} from Birmingham."
+          },
+          {
+            "type": "gaps-text",
+            "text": "Watt was creative, while his partner Boulton had a {(8)}"
+          },
+          {
+            "type": "gaps-text",
+            "text": "The partners sold their first steam engine in {(9)}"
+          },
+          {
+            "type": "gaps-text",
+            "text": "By 1800, Boulton-Watt engines were used in hundreds of {(10)}"
           }
         ],
         "keys": {
-          "1": ["his parents", "parents"],
-          "2": ["articles"],
-          "3": ["poetry"],
-          "4": ["huge potential", "a huge potential"],
-          "5": ["the global popularity", "global popularity"]
+          "1": "ships",
+          "2": "professors",
+          "3": "instrument",
+          "4": "1763",
+          "5": "separate",
+          "6": "potential user",
+          "7": "businessman",
+          "8": "practical mind",
+          "9": "1776",
+          "10": "mines and factories"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Task 0",
+    "level": "B1",
+    "task_number": 2,
+    "variant": 1,
+    "type": "reading",
+    "parts": [
+      {
+        "name": "Reading. Part 1. Questions 1-10.",
+        "exercise": "Read the text and fill in the gaps 1-6 with one word from the menu. First, look at the example 0. ",
+        "type": "filling-gaps",
+        "contents": [
+          {
+            "type": "gaps-text",
+            "text": "The Landmark Trust is {(0)} British historic buildings preservation company. It has been active in restoration of historic buildings for {(1)} 60 years now. The restored buildings are turned into hotels.  The Trust usually works in Britain.  {(2)}, it also had projects in  some European countries and the USA. The Trust receives {(3)} 100 requests each year to give a new life to many old buildings. But first, the Trust specialists have to understand  {(4)} the building really needs them. Not all old buildings require a serious restoration. If it does, the work is always done {(5)} the use of natural materials and old technologies. The choice of objects to reconstruct also depends on how much the future hotel will be popular {(6)} tourists."
+          }
+        ],
+        "answers": {
+          "0": ["a"],
+          "1": ["most", "near", "almost", "practically"],
+          "2": ["On the contrary", "However", "While", "Thus"],
+          "3": ["less", "over", "close", "more"],
+          "4": ["what", "why", "if", "how"],
+          "5": ["with", "through", "for", "by"],
+          "6": ["for", "with", "to", "round"]
+        },
+        "keys": {
+          "0": "a",
+          "1": "almost",
+          "2": "However",
+          "3": "over",
+          "4": "if",
+          "5": "with",
+          "6": "with"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Task 0",
+    "level": "B1",
+    "task_number": 2,
+    "variant": 2,
+    "type": "reading",
+    "parts": [
+      {
+        "name": "Reading. Part 1. Questions 1-6.",
+        "exercise": "Read the text and choose a correct word for gaps 1-6. First, look at the example (0).",
+        "type": "filling-gaps",
+        "contents": [
+          {
+            "type": "gaps-text",
+            "text": "The Greeks were {(0)} more advanced than most other civilizations of their time. One area they were very skillful {(1)} was medicine. They were said to treat people who were mourning with Nepenthe, {(2)} antidepressant known to 'chase away sorrow.' {(3)} historians think that it could be fictional. Others believe that it was real and widely used in {(4)} ancient Greece. It was said that Nepenthe came from Egypt and {(5)} effects have led many to compare it with opium as 'a drug of forgetfulness.' It's possible that this plant is still around today but modern science hasn’t identified its today's equivalent so {(6)} now it remains a mystery."
+          }
+        ],
+        "answers": {
+          "0": ["many", "much", "so", "such"],
+          "1": ["for", "in", "on", "about"],
+          "2": ["a", "an", "the", "no article"],
+          "3": ["A lot", "Mostly", "Some", "Any"],
+          "4": ["the", "a", "an", "no article"],
+          "5": ["its", "that", "those", "its"],
+          "6": ["from", "for", "as", "until"]
+        },
+        "keys": {
+          "0": "much",
+          "1": "in",
+          "2": "an",
+          "3": "Some",
+          "4": "no article",
+          "5": "its",
+          "6": "for"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Task 0",
+    "level": "B1",
+    "task_number": 2,
+    "variant": 3,
+    "type": "reading",
+    "parts": [
+      {
+        "name": "Reading. Part 1. Questions 1-6.",
+        "exercise": "Read the text and choose a correct word for gaps 1-6. First, look at the example (0).",
+        "type": "filling-gaps",
+        "contents": [
+          {
+            "type": "gaps-text",
+            "text": "The genre of horror always ranks high among {(0)} types of films, though its popularity is lower than of sci-fi and action. The size of {(1)} audiences attracted to this genre varies from country to country. According {(2)} the 2023 research, the highest percentage of horror lovers was concentrated in Mexico and South Korea. However, two of Korea’s neighbours – China and Japan – were {(3)} the bottom of the list. {(4)} it is not clear why the Japanese were so disinterested, there was an explanation for China. It is officially prohibited there to demonstrate films not based {(5)} scientific facts. If that is the case, most masterpieces of the genre for example, Dawn of the Dead and other films featuring zombies, simply had {(6)} chances to reach the Chinese audience."
+          }
+        ],
+        "answers": {
+          "0": ["another", "other", "some", "all"],
+          "1": ["an", "a", "no article", "the"],
+          "2": ["with", "for", "to", "from"],
+          "3": ["at", "on", "from", "in"],
+          "4": ["Because", "However", "As", "While"],
+          "5": ["on", "in", "from", "of"],
+          "6": ["any", "no", "not", "nothing"]
+        },
+        "keys": {
+          "0": "other",
+          "1": "the",
+          "2": "to",
+          "3": "at",
+          "4": "While",
+          "5": "on",
+          "6": "no"
         }
       }
     ]
@@ -280,73 +433,6 @@
     "name": "Task 1",
     "level": "A2",
     "task_number": 3,
-    "variant": 1,
-    "type": "reading",
-    "parts": [
-      {
-        "name": "Reading.",
-        "exercise": "Read the text and fill in the gaps 1-6 with one word from the menu. First, look at the example 0.",
-        "type": "filling-gaps",
-        "contents": [
-          {
-            "type": "gaps-text",
-            "text": "Why {(0)} do many people prefer risky sports? {(1)} sports as car races or alpinism are very popular. But {(2)} sports are very dangerous. First of all, you feel very excited and your body produces {(3)} of adrenaline. And adrenaline helps to produce serotonin – the hormone of happiness. So, when we do {(4)} dangerous, we feel happy at the end. Also, our daily life can be very dull. So, it is important {(5)} many people to understand that they are able to do difficult things. However, there can be other ways to feel excited. For example, to solve {(6)} difficult problem."
-          }
-        ],
-        "answers": {
-          "0": ["do"],
-          "1": ["Such", "like", "so"],
-          "2": ["these", "this", "that"],
-          "3": ["many", "a lot", "much"],
-          "4": ["anything", "everything", "something"],
-          "5": ["for", "to", "in"],
-          "6": ["a", "no article", "the"]
-        },
-        "keys": {
-          "1": "Such",
-          "2": "these",
-          "3": "a lot",
-          "4": "something",
-          "5": "for",
-          "6": "no article"
-        }
-      }
-    ]
-  },
-  {
-    "name": "Task 2",
-    "level": "A2",
-    "task_number": 4,
-    "variant": 1,
-    "type": "reading",
-    "parts": [
-      {
-        "name": "Reading.",
-        "exercise": "Read the text and fill the gaps (1-6) with the forms of words in CAPITALS. First, look at the example (0).",
-        "type": "filling-gaps-forms",
-        "contents": [
-          {
-            "type": "gaps-text",
-            "text": "Today people can {(0)} easily make a trip from Europe to China. In the 13 th century such trips were very unusual. Europeans knew how to get there, but such journeys were long and {(1)}. There were very few people who visited China, India or Japan. Marco Polo was an {(2)} merchant, traveler and writer. He spent about 24 years of his {(3)} in the East and had many adventures and meetings with people from far-away Eastern countries. When he came back, he wrote a very {(4)} book about his travels. It was very popular with European readers for many centuries. But we do not know if everything Polo writes about {(5)} happened to him. Some of his stories are like fairytales. Historians still are not sure what  {(6)} he saw with his own eyes and what he invented or heard from other people."
-          }
-        ],
-        "answers": ["easy", "danger", "italy", "live", "excite", "real", "exact"],
-        "keys": {
-          "0": "easily",
-          "1": "dangerous",
-          "2": "italian",
-          "3": "life",
-          "4": "exciting",
-          "5": "really",
-          "6": "exactly"
-        }
-      }
-    ]
-  },
-  {
-    "name": "Task 3",
-    "level": "A2",
-    "task_number": 5,
     "variant": 1,
     "type": "reading",
     "contents": [
@@ -432,6 +518,679 @@
           "3": "mathematics",
           "4": ["Ancient Greece", "Greece"],
           "5": "mathematics"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Task 1",
+    "level": "A2",
+    "task_number": 3,
+    "variant": 2,
+    "type": "reading",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Charles Dickens is one of the greatest English writers. He was born in 1812 in a middle-class family. His father was a well-paid office worker. However, he was not accurate with money and often invested it into risky projects. So, when Charles was only 12, his father got to prison for his debts. Mr Dickens wasn’t really worried about the family. Charles, however, had to leave school and to start working in a factory. It was a difficult time, but Charles learned a lot about the life of working-class people. When his father got out of prison, Charles planned to go back to school, but his mother wanted him to work and earn money. She knew that his father would soon get into a difficult situation and Charles would need to work again. Some researchers think that, because of this conflict with his mother, Dickens did not show a good understanding of women in his novels. He went back to school, but at the age of 15 had to leave it and to start working again – this time in an office. Dickens had a difficult youth, but it gave him a lot of material for his future books. He described his own experience in David Copperfield, one of his best-known novels."
+      }
+    ],
+    "parts": [
+      {
+        "name": "Reading. Part 1. Questions 1-7.",
+        "exercise": "Read the text and then read the sentences (1-7). Mark them as TRUE or FALSE.",
+        "type": "true-false-questions",
+        "contents": [
+          {
+            "type": "question",
+            "question": "Dickens’ father spent more money than he had."
+          },
+          {
+            "type": "question",
+            "question": "His father understood that his arrest was a problem for the family."
+          },
+          {
+            "type": "question",
+            "question": "The time when Charles worked in the factory wasn’t useful for him."
+          },
+          {
+            "type": "question",
+            "question": "Dickens’ mother knew that soon the family would need Charles’ money."
+          },
+          {
+            "type": "question",
+            "question": "Some researchers believe that Dickens did not know a lot about women."
+          },
+          {
+            "type": "question",
+            "question": "Dickens did not finish his studies."
+          },
+          {
+            "type": "question",
+            "question": "David Copperfield is the most popular Dickens’ novel."
+          }
+        ],
+        "keys": {
+          "1": "true",
+          "2": "false",
+          "3": "false",
+          "4": "true",
+          "5": "true",
+          "6": "true",
+          "7": "false"
+        }
+      },
+      {
+        "name": "Reading. Part 2. Questions 8-12.",
+        "exercise": "Fill in the gaps in the sentences (8-12) with ONE or TWO words from the text or with a figure. Do NOT change the words from the text.",
+        "type": "filling-gaps-forms",
+        "contents": [
+          {
+            "type": "gaps-text",
+            "text": "Dickens’ father was an {(8)}."
+          },
+          {
+            "type": "gaps-text",
+            "text": "As a boy Dickens worked in {(9)}."
+          },
+          {
+            "type": "gaps-text",
+            "text": "At the factory he learned to understand {(10)} people."
+          },
+          {
+            "type": "gaps-text",
+            "text": "When Charles was {(11)} he left school forever."
+          },
+          {
+            "type": "gaps-text",
+            "text": "Dickens got a lot of {(12)} for his novels from his own life."
+          }
+        ],
+        "keys": {
+          "8": "office worker",
+          "9": "a factory",
+          "10": "working-class",
+          "11": ["15", "fifteen"],
+          "12": "material"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Task 1",
+    "level": "A2",
+    "task_number": 3,
+    "variant": 3,
+    "type": "reading",
+    "contents": [
+      {
+        "type": "text",
+        "text": "The first team play with a ball happened about 3,000 years ago. It was in the part of North America that now is Mexico. The ball was made of stone. The team that lost the game could be killed. So, it was a really dangerous sport. Ancient Greeks also played something like football. But they thought it was not a real sport, but a silly game. That’s why their ‘football’ was not part of the Olympic Games. Modern football was invented in England. Probably, already 900 years ago men played a ball game. The rules, however, were different. The ball could be not only kicked with a foot but also thrown with a hand. Also, for a long time there was no clear division between two games – rugby and football. The English could not agree on the rules for a long time. The teams could not agree even on the number of players. Teams did not have uniforms. So, it was difficult for fans to understand who was who. For a long time football remained a British game. Only in 1904 it became international when seven European countries organised the International Federation of Football (FIFA). Interestingly, British teams did not join it until 1950."
+      }
+    ],
+    "parts": [
+      {
+        "name": "Reading. Part 1. Questions 1-7.",
+        "exercise": "Read the text and then read the sentences (1-7). Mark them as TRUE or FALSE.",
+        "type": "true-false-questions",
+        "contents": [
+          {
+            "type": "question",
+            "question": "People started to play football in North America."
+          },
+          {
+            "type": "question",
+            "question": "It was not safe to play this game 3,000 years ago."
+          },
+          {
+            "type": "question",
+            "question": "Greeks did not make their ball game part of the Olympic Games because it was dangerous."
+          },
+          {
+            "type": "question",
+            "question": "It is the common knowledge that an early version of football was played in England already almost a thousand years ago."
+          },
+          {
+            "type": "question",
+            "question": "In the past, two popular ball games were perceived as one kind of sport."
+          },
+          {
+            "type": "question",
+            "question": "Football teams in England were of different size."
+          },
+          {
+            "type": "question",
+            "question": "England was a part of FIFA from the very beginning."
+          }
+        ],
+        "keys": {
+          "1": "true",
+          "2": "true",
+          "3": "false",
+          "4": "false",
+          "5": "true",
+          "6": "true",
+          "7": "false"
+        }
+      },
+      {
+        "name": "Reading. Part 2. Questions 8-12.",
+        "exercise": "Fill in the gaps in the sentences (8-12) with ONE or TWO words from the text or with a figure. Do NOT change the words from the text.",
+        "type": "filling-gaps-forms",
+        "contents": [
+          {
+            "type": "gaps-text",
+            "text": "In the beginning, people played with a {(1)} ball."
+          },
+          {
+            "type": "gaps-text",
+            "text": "For Greeks, their ‘football’ was not a {(2)}."
+          },
+          {
+            "type": "gaps-text",
+            "text": "In old times in England, it was not against the rules to use {(3)} to play football."
+          },
+          {
+            "type": "gaps-text",
+            "text": "It was not easy to understand the difference between {(4)} and {(5)}."
+          },
+          {
+            "type": "gaps-text",
+            "text": "The International Federation of Football was organised by {(6)} countries."
+          }
+        ],
+        "keys": {
+          "1": "stone",
+          "2": "real sport",
+          "3": "hands",
+          "4": "football",
+          "5": "rugby",
+          "6": ["7", "seven"]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Task 1",
+    "level": "B1",
+    "task_number": 3,
+    "variant": 1,
+    "type": "reading",
+    "contents": [
+      {
+        "type": "paragraph",
+        "text": "Indians’ winter houses are constructed mainly of skins and poles, covered over with grass and mud . They are very comfortable and have enough space for many people. The floor is a foot or two below the surface of the ground. (1). These buildings look like roofs of ordinary houses placed on the ground. Each family has its own fire. As they do not have chimneys, there are holes above each fire to send the smoke outside. (2). These houses are generally long and narrow, and contain each from one to five or six families. As soon as the snow begins to disappear in the spring, the winter camps break up, and the whole tribe disperses here and there into small parties or families. (3). Here, then, their fish barriers are constructed, by the united labour of the whole village or camp staying in one place. (4). The tribe then elects one or more men to oversee how the catch is divided between families.  (5). Their authority is law in such matters till the end of the fishing season, which is generally about the beginning of October. As soon as the fish season is over, the Indians move to woods or mountains, as they did in the spring, and divide into little groups for the purpose of hunting various animals. (6). During this season they remain in their habitations, constructed as already described."
+      }
+    ],
+    "parts": [
+      {
+        "name": "Reading. Questions 1-6.",
+        "exercise": "Read the text and fill in the gaps (1-6) with the sentences (A-G). There is one extra sentence which you will not need.",
+        "type": "match-paragraphs",
+        "contents": [
+          {
+            "type": "heading",
+            "text": "Usually there are several doors, which in fact are holes covered with skins lifted up and down every time a person goes in or out."
+          },
+          {
+            "type": "heading",
+            "text": "The Indians, after a month or six weeks in hunting, get together again into large groups to spend the winter on the banks of small rivers, where there is a lot of wood."
+          },
+          {
+            "type": "heading",
+            "text": "These people are very good at both fishing and hunting."
+          },
+          {
+            "type": "heading",
+            "text": "They travel around till the middle of June, when they all get together again in large groups on the banks of different rivers, for the purpose of fishing during the summer season."
+          },
+          {
+            "type": "heading",
+            "text": "This makes the whole house much warmer."
+          },
+          {
+            "type": "heading",
+            "text": "The person or persons chosen in such a way divide the fish every morning, and control the whole situation with the barrier and fish for the current year."
+          },
+          {
+            "type": "heading",
+            "text": "There is plenty of salmon in local rivers, so as soon as the barriers are finished, their catch is quite big."
+          }
+        ],
+        "answers": ["a", "b", "c", "d", "e", "f", "g"],
+        "keys": {
+          "1": "e",
+          "2": "a",
+          "3": "d",
+          "4": "g",
+          "5": "f",
+          "6": "b"
+        }
+      },
+      {
+        "name": "Reading. Questions 7-12.",
+        "type": "filling-gaps-forms",
+        "exercise": "Read the text again and fill in the gaps in the sentences (7-12) with one or two words from the text. Do NOT change the words from the text.",
+        "contents": [
+          {
+            "type": "gaps-text",
+            "text": "Indians use skins, poles and mud to build their {(1)}."
+          },
+          {
+            "type": "gaps-text",
+            "text": "The smoke from fires is going outside through {(2)} in the roof."
+          },
+          {
+            "type": "gaps-text",
+            "text": "A house is big enough for up to {(3)} families to live in it."
+          },
+          {
+            "type": "gaps-text",
+            "text": "As soon as the spring comes, {(4)} breaks into small groups and families."
+          },
+          {
+            "type": "gaps-text",
+            "text": "In June, all members of the tribe take part in building {(5)} to catch salmon."
+          },
+          {
+            "type": "gaps-text",
+            "text": "The tribe chooses one or {(6)} to ensure that fish is divided fairly between families."
+          }
+        ],
+        "keys": {
+          "1": "winter houses",
+          "2": "holes",
+          "3": ["six", "6"],
+          "4": "the tribe",
+          "5": "fish barriers",
+          "6": "more men"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Task 1",
+    "level": "B1",
+    "task_number": 3,
+    "variant": 2,
+    "type": "reading",
+    "contents": [
+      {
+        "type": "paragraph",
+        "text": "John Jacob Astor was born in Germany and emigrated to the USA in 1784 right after the end of the American War of Independence. He was then a young man of 21. (1). Furs were popular in Europe, and most of them were imported from North America and Russia. For example, gentlemen all across Europe wore hats made of beaver fur. (2). Due to all these qualities, he soon became very wealthy, and by his death in 1848 Astor was the richest man in the USA, having become the first American multimillionaire. At some stage of his career Astor realized that money could be easily made without leaving New York.  (3) There is a street and a subway station  in modern Manhattan having his name. In the subway station, one can still see the image of a beaver chewing a tree – a reminder of Astor’s fur trade. (4). They often would buy a big plot of land and rent it to a developer for 20 years. It made no sense for a developer to build something good there because he could only use it for two decades. (5). Part of this rent went to the Astors. Then the Astors  destroyed the slums and  re-invested the money in construction of  something much more expensive on the same land. Because of this scheme they were called ‘slumlords’. One of the 20th century Astors, realised that being a ‘slumlord’ was not a honourable thing. (6) She helped homeless people building houses for them, financed the creation of the Chinese garden in the Metropolitan Museum of Arts and established a medical centre for animals. But Brooke’s favourite place to support was the New York Public Library."
+      }
+    ],
+    "parts": [
+      {
+        "name": "Reading. Questions 1-6.",
+        "exercise": "Read the text and fill in the gaps ({1}-{6}) with the sentences (a-g). There is one extra sentence which you will not need.",
+        "type": "match-paragraphs",
+        "contents": [
+          {
+            "type": "heading",
+            "text": "On board the ship, he learned about the great potential of the fur trade."
+          },
+          {
+            "type": "heading",
+            "text": "Astor had a sharp business mind and, at the same time, he was a cruel, greedy and unprincipled man."
+          },
+          {
+            "type": "heading",
+            "text": "Thus he began investing in local real estate without leaving the super-profitable fur trade."
+          },
+          {
+            "type": "heading",
+            "text": "It was real estate business that allowed his descendants to keep and grow the family wealth."
+          },
+          {
+            "type": "heading",
+            "text": "So, developers built very cheap houses and collected rent from poor people who lived there."
+          },
+          {
+            "type": "heading",
+            "text": "However, it was his widow, Brooke Astor, who began ‘paying back’ to New York."
+          }
+        ],
+        "answers": ["a", "b", "c", "d", "e", "f"],
+        "keys": {
+          "1": "b",
+          "2": "e",
+          "3": "g",
+          "4": "f",
+          "5": "d",
+          "6": "c"
+        }
+      },
+      {
+        "name": "Reading. Questions 7-12.",
+        "type": "filling-gaps-forms",
+        "exercise": "Read the text again and fill in the gaps in the sentences (7-12) with one or two words from the text. Do NOT change the words from the text.",
+        "contents": [
+          {
+            "type": "gaps-text",
+            "text": "John Jacob Astor decided to move to America at the age of ({1})."
+          },
+          {
+            "type": "gaps-text",
+            "text": "In the first half of the 19th century, ({2}) from beaver fur were in fashion in Europe."
+          },
+          {
+            "type": "gaps-text",
+            "text": "At some stage, Astor understood that it was possible to make money without leaving ({3})."
+          },
+          {
+            "type": "gaps-text",
+            "text": "A street and a ({4}) were named after John Jacob Astor."
+          },
+          {
+            "type": "gaps-text",
+            "text": "Developers who rented the Astors’ land did not see any sense in constructing ({5}) there."
+          },
+          {
+            "type": "gaps-text",
+            "text": "Brooke was the first Astor who helped ({6}) building houses for them."
+          }
+        ],
+        "keys": {
+          "1": "21",
+          "2": "Hats",
+          "3": "New York",
+          "4": "subway station",
+          "5": "something good",
+          "6": "homeless people"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Task 1",
+    "level": "B1",
+    "task_number": 3,
+    "variant": 3,
+    "type": "reading",
+    "contents": [
+      {
+        "type": "paragraph",
+        "text": "We know relatively well what was fashionable in different historical periods. What we are not always aware of, however, is how people wore their clothes. The correct answer seems to be: in most cases they did not. There is an interesting 17th century English book called 'The Book of Days' describing different aspects of people's everyday life. It appears that what families really washed were things like towels, bed sheets, pillow-cases, etc. (1). What did they sleep in? Probably, the poorest people did not have any special night clothes or even bed sheets, etc. (2). These night dresses were usually made of expensive materials. For example, one of the 16th century English queens slept in a black silk and velvet gown. Her daughter, the great monarch Elizabeth Tudor, had a nightgown made of black velvet and decorated with fur. Such materials as silk, velvet and fur could be destroyed by washing. (3). The best solution available to rich people was to wear such gowns only a couple of times and then replace them with new ones. That concerned not only nightgowns, but day clothes as well. For example, in 1603 before her death, Elizabeth Tudor had more than 2,000 dresses in her wardrobe. (4). Such gowns, as Elizabeth wore, consisted of many layers and, not being washed, were very attractive to different insects. So it was fashionable in the 16th century to wear traps for insects ('flea traps') on one's belt. (5). Ladies were proud of these accessories and demonstrated them openly. It seems that poor people did not have any underwear at all. What about the upper classes? Men's shirts were thought to be underwear, and it was not polite to demonstrate one's shirt in public. It was fine to show only the richly decorated collars. (6). For both sexes it was the only piece of clothing that was regularly washed."
+      }
+    ],
+    "parts": [
+      {
+        "name": "Reading. Historical faction. Questions 1-6.",
+        "exercise": "Read the text and fill in the gaps (1-6) with the sentences (A-G). There is one extra sentence which you will not need.",
+        "type": "match-paragraphs",
+        "contents": [
+          {
+            "type": "heading",
+            "text": "They were richly decorated with gold or expensive furs."
+          },
+          {
+            "type": "heading",
+            "text": "Wealthy people, definitely, used bed sheets."
+          },
+          {
+            "type": "heading",
+            "text": "So, they could only be cleaned with a brush."
+          },
+          {
+            "type": "heading",
+            "text": "In other words, items they slept on or used when washing themselves."
+          },
+          {
+            "type": "heading",
+            "text": "Ladies wore longer shirts under their dresses."
+          },
+          {
+            "type": "heading",
+            "text": "It is thought that she never wore each dress more than once."
+          },
+          {
+            "type": "heading",
+            "text": "As to wealthy people, they had so-called 'night dresses' or 'night gowns' they wore to bed."
+          }
+        ],
+        "answers": ["a", "b", "c", "d", "e", "f", "g"],
+        "keys": {
+          "1": "d",
+          "2": "g",
+          "3": "c",
+          "4": "f",
+          "5": "a",
+          "6": "e"
+        }
+      },
+      {
+        "name": "Reading. Questions 7-12.",
+        "type": "filling-gaps-forms",
+        "exercise": "Read the text again and fill in the gaps in the sentences (7-12) with one or two words from the text. Do NOT change the words from the text.",
+        "contents": [
+          {
+            "type": "gaps-text",
+            "text": "While we understand what was in fashion in the past, we do not know how people {(1)} these clothes."
+          },
+          {
+            "type": "gaps-text",
+            "text": "'The book of days' has information on what people {(2)}"
+          },
+          {
+            "type": "gaps-text",
+            "text": "Queen Elizabeth Tudor's mother wore a nightgown made of {(3)} and fur."
+          },
+          {
+            "type": "gaps-text",
+            "text": "It is possible that rich people often bought new clothes that  {(4)} old ones."
+          },
+          {
+            "type": "gaps-text",
+            "text": "Unwashed gowns attracted {(5)} ."
+          },
+          {
+            "type": "gaps-text",
+            "text": "It is believed that lower classes did not have any {(6)} ."
+          }
+        ],
+        "keys": {
+          "1": "wore",
+          "2": "washed",
+          "3": "black velvet",
+          "4": "replaced",
+          "5": "different insects",
+          "6": "underwear"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Task 1",
+    "level": "B2",
+    "task_number": 3,
+    "variant": 1,
+    "type": "reading",
+    "contents": [
+      {
+        "type": "paragraph",
+        "text": "Medicine started developing in the early history in response to people’s urgent needs. It has been justly called the mother of many sciences. In the records of Egyptian medical practice, the origins of chemistry, anatomy, physiology, and botany can be traced. The first physician of whom history has preserved the name, Imhotep, lived about 4500 BC. Recent studies have also brought to light pictures of surgical operations dating back to 2500 BC. (1) The patients in the picture are suffering pain. According to the inscription, one cries out, ‘Do this and let me go,’ and the other, ‘Don’t hurt me so!’ The most satisfactory data on Egyptian medicine are contained in the Ebers Papyrus. This document demonstrated knowledge of the pulse in different parts of the body, of a relation between the heart and the other organs, and of the passage of the breath to the lungs and heart. (2) Its main part is a collection of prescriptions for the eyes, ears, stomach, etc. Each prescription contains several ingredients. Among the seven hundred recognized remedies there are many familiar medicinal plants, as well as bicarbonate of soda and salts of lead and copper. (3) According to a Greek historian, there was a school of medicine in Babylon. Archaeologists found a letter written by a physician and addressed to a king in the 7th century BC. The author of the letter was giving advice on treatment of a nosebleed, which the king’s friend was suffering from. (4) Other letters from the same period mention the presence of physicians at court. We even have the name (Ilu-bani) of a physician who lived in southern Babylonia about 2700 BC. The most interesting information, however, in reference to Babylonian medicine dates from the time of Hammurabi (1793-1750 BC). It appears from the law code drawn up in the reign of that monarch that the Babylonian surgeons were able to operate a cataract. (5) In case the patient lost their life or sight as the result of an unsuccessful operation, the surgeon was condemned to have his hands amputated. The Babylonian records of medicine reveal the presence of many religious beliefs. The spirits of evil bring diseases upon us; the gods heal the diseases that attack people. (6) Also, they have descriptions of various rituals that doctors had to perform to help patients."
+      }
+    ],
+    "parts": [
+      {
+        "name": "Reading. Questions 1-6.",
+        "exercise": "Read the text and fill in the gaps (1-6) with the sentences (A-G). There is one extra sentence which you will not need.",
+        "type": "match-paragraphs",
+        "contents": [
+          {
+            "type": "heading",
+            "text": "Unfortunately, we do now know how often such operations were successful."
+          },
+          {
+            "type": "heading",
+            "text": "It also tells about the recovery of a poor fellow whose eyes were diseased."
+          },
+          {
+            "type": "heading",
+            "text": "They were found at the entrance to the tomb of a high official of one of the Pharaohs."
+          },
+          {
+            "type": "heading",
+            "text": "For a successful operation they were paid twenty silver shekels (which was a lot of money)."
+          },
+          {
+            "type": "heading",
+            "text": "The fat of the lion, hippopotamus, crocodile, goose, serpent, and wild goat, in equal parts, served as a prescription for baldness."
+          },
+          {
+            "type": "heading",
+            "text": "So, the Babylonian books of medicine contained a strange mix of prescription and incantation."
+          },
+          {
+            "type": "heading",
+            "text": "It contains a list of diseases."
+          }
+        ],
+        "answers": ["a", "b", "c", "d", "e", "f", "g"],
+        "keys": {
+          "1": "c",
+          "2": "g",
+          "3": "e",
+          "4": "b",
+          "5": "d",
+          "6": "f"
+        }
+      },
+      {
+        "name": "Reading. Questions 7-12.",
+        "type": "filling-gaps-forms",
+        "exercise": "Read the text again and fill in the gaps in the sentences (7-12) with one or two words from the text. Do NOT change the words from the text.",
+        "contents": [
+          {
+            "type": "gaps-text",
+            "text": "Documents on medicine written in Ancient Egypt contain information on ({1}) of other sciences."
+          },
+          {
+            "type": "gaps-text",
+            "text": "The first doctor, whose name was preserved in documents, lived about ({2})."
+          },
+          {
+            "type": "gaps-text",
+            "text": "The Ebers Papyrus proves that ancient physicians knew how the human heart was connected with the ({3})."
+          },
+          {
+            "type": "gaps-text",
+            "text": "Some medicines used in Ancient Egypt were based on ({4}) that are still used today."
+          },
+          {
+            "type": "gaps-text",
+            "text": "A Babylonian doctor sent his recommendations on how to help the ({5})."
+          },
+          {
+            "type": "gaps-text",
+            "text": "The Babylonian documents tell us also about the important role of ({6}) in medicine of that time."
+          }
+        ],
+        "keys": {
+          "1": "origins",
+          "2": "4500 BC",
+          "3": "other organs",
+          "4": "medicinal plants",
+          "5": "king’s friend",
+          "6": "religious beliefs"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Task 1",
+    "level": "B2",
+    "task_number": 3,
+    "variant": 2,
+    "type": "reading",
+    "contents": [
+      {
+        "type": "paragraph",
+        "text": "If you consult encyclopedias and special reference books to learn about the early history of any one of the sciences—astronomy, geology, geometry, physiology, logic, or political science —you will see how important was the part played by the Greeks in the development of organized knowledge. (1) It must also be said that the influence of civilizations earlier than Greek one on Western science has come to us to mostly through Greek literature. Nevertheless, if you look at the very origins of the sciences, you will inevitably be taken to the banks of the Nile, and to the valleys of the Tigris and the Euphrates. (2) Though they are much more remote in time from us than ancient Greece their wisdom and practical knowledge are easier to be comprehended by our minds than the difficult ideas of Greek philosophy. Much that we inherited from the earliest civilizations is so familiar, that we simply accept it without asking where it came from. (3) Why are there sixty minutes in the hour, and why are there not sixty hours in the day? These artificial divisions of time are accepted so universally that to ask a reason for them may seem almost absurd. (4) Even in that remote age (about 2500 years BC ) the Babylonians had established those divisions of time which are familiar to us. The seven days of the week were closely associated in men's thinking with the space bodies.  (5) Thus, we see that the making seven days a unit of time depends on the religious belief and astronomical science of a very remote civilization.  Another piece of common knowledge—the cardinal points of the compass (north, south, east and west) — may be  taken for granted. (6) Archeologists discovered that the sides of the temples and palaces of Assyria and Babylonia were directed to the four cardinal points of the compass. In Egypt the pyramids, erected before 3000 BC ., followed the cardinal direction so strictly that there is a hypothesis that one of the purposes was to establish, in this land of shifting sands, east and west and north and south.  "
+      }
+    ],
+    "parts": [
+      {
+        "name": "Reading. Questions 1-6.",
+        "exercise": "Read the text and fill in the gaps (1-6) with the sentences (A-G). There is one extra sentence which you will not need.",
+        "type": "match-paragraphs",
+        "contents": [
+          {
+            "type": "heading",
+            "text": "In many modern languages they are named after the Sun, the Moon, Mars, Mercury, Jupiter, Venus, and Saturn, which from the remotest times were personified and worshiped."
+          },
+          {
+            "type": "heading",
+            "text": "Indeed, the contribution of these highly rational and intelligent people was great."
+          },
+          {
+            "type": "heading",
+            "text": "In this matter, again, the records of ancient civilizations show huge efforts that were made to fix these essentials of science."
+          },
+          {
+            "type": "heading",
+            "text": "It should be mentioned that, unfortunately, we are in possession of only a small part of documents from that remote time."
+          },
+          {
+            "type": "heading",
+            "text": "This acceptance of a week of seven days and of an hour of sixty minutes is owing to a tradition that is Babylonian in its origin."
+          },
+          {
+            "type": "heading",
+            "text": "Why are there seven days in the week, and not eight?"
+          },
+          {
+            "type": "heading",
+            "text": "Here, in Egypt, in Assyria and Babylonia, lived the nations whose genius was practical and religious rather than intellectual and theoretical."
+          }
+        ],
+        "answers": ["a", "b", "c", "d", "e", "f", "g"],
+        "keys": {
+          "1": "b",
+          "2": "g",
+          "3": "f",
+          "4": "e",
+          "5": "a",
+          "6": "c"
+        }
+      },
+      {
+        "name": "Reading. Questions 7-12.",
+        "type": "filling-gaps-forms",
+        "exercise": "Read the text again and fill in the gaps in the sentences (7-12) with one or two words from the text. Do NOT change the words from the text.",
+        "contents": [
+          {
+            "type": "gaps-text",
+            "text": "It was ({1}) that saved for us much of the knowledge created by more ancient civilizations."
+          },
+          {
+            "type": "gaps-text",
+            "text": "The ideas and practical knowledge of ancient Assyrians and Babylonians are not as difficult for us to understand as the complexity of ({2})."
+          },
+          {
+            "type": "gaps-text",
+            "text": "Some scientific facts are so ({3}) that we do not think about their origins."
+          },
+          {
+            "type": "gaps-text",
+            "text": "People used to connect the seven days of the week with the planets and other ({4})."
+          },
+          {
+            "type": "gaps-text",
+            "text": "The number of days in a week is connected with ({5})  and scientific knowledge of very old civilizations."
+          },
+          {
+            "type": "gaps-text",
+            "text": "Interestingly, the buildings in ancient Assyria and Babylonia were constructed with their walls facing towards the four main ({6}) directions."
+          }
+        ],
+        "keys": {
+          "1": "Greek literature",
+          "2": "Greek philosophy",
+          "3": "familiar",
+          "4": "space bodies",
+          "5": "religious beliefs",
+          "6": "cardinal"
         }
       }
     ]

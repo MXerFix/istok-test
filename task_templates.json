@@ -1,0 +1,373 @@
+[
+  {
+    "name": "Task 0",
+    "level": "A2",
+    "task_number": 2,
+    "variant": 1,
+    "type": "reading",
+    "contents": [
+      {
+        "type": "paragraph",
+        "text": "Jules Vernes (1828-1905), one of the greatest adventure and science fiction writers of all times, was born in the port city of Nantes in France. As a boy, he was fascinated by ships and dreamed about sea adventures. He heard a lot of such stories from his first teacher and from various sailors from the port. There is a story, maybe a fictional one, that at the age 11 he intended to become a cabin-boy on a ship but was stopped by his parents.  His favourite childhood book is thought to have been Robinson Crusoe.  The motive of a lonely man on an isolated island later will appear in some of his books.  "
+      },
+      {
+        "type": "paragraph",
+        "text": "However, his family had a clear idea of his future career, because his father was a well-known local lawyer. Jules had studied law both in Nantes and in Paris until he got his degree in 1851. But even before that he achieved his first literary success: his friend Alexandre Dumas-son produced Verne’s first play in his theatre in 1850. Having become a professional lawyer, Jules never seriously worked in this area. He was employed by a magazine as a writer and published articles on travel, history, and science. At the same time, he began writing short stories and later  novels"
+      },
+      {
+        "type": "paragraph",
+        "text": "Writing, however, was not an occupation that could guarantee financial stability and prosperity. The family of the girl Jules fell in love with, did not allow the young people to marry. This left him heartbroken and made him write poetry. So, as it can be seen, he tried himself in many literary genres but that did not make him financially stable. When he met his future wife, Honorine, in 1856, Jules had to start working in her father’s business to guarantee the family’s permission to marry his love."
+      },
+      {
+        "type": "paragraph",
+        "text": "The change in Jules Verne’s literary career came in 1860 when he met Pierre-Jules Hetzel, a wealthy and successful publisher who worked with the greatest French writers of that time. Hetzel saw a huge potential in the young author and even launched a new magazine where he published  of Jules Verne’s first adventure novel by separate chapters. This collaboration finally allowed Vernes to concentrate fully on his literary work."
+      },
+      {
+        "type": "paragraph",
+        "text": "Such novels as  Twenty Thousand Leagues Under the Sea , Around the World in Eighty Days, Captain Grant’s Children brought him the global popularity. Jules Verne is sometimes called the founder of the science fiction genre. He predicted many things – such as space flights and submarines.  His fame was so big that people tried to copy things described in his novels. For example, several people undertook to repeat the round-the-world trip described by Verne. Nancy Bly managed to make it in 72 days – in less than Verne’s characters."
+      }
+    ],
+    "parts": [
+      {
+        "name": "Reading. Questions 1-5.",
+        "exercise": "Read the text and match the headings (A-F) with the paragraphs (1-5). There is one extra heading which you will not need.",
+        "type": "match-paragraphs",
+        "contents": [
+          {
+            "type": "heading",
+            "text": "A new genre"
+          },
+          {
+            "type": "heading",
+            "text": "An important partnership"
+          },
+          {
+            "type": "heading",
+            "text": "Dreams about the sea"
+          },
+          {
+            "type": "heading",
+            "text": "Law or literature?"
+          },
+          {
+            "type": "heading",
+            "text": "Fame"
+          },
+          {
+            "type": "heading",
+            "text": "Love and money"
+          }
+        ],
+        "answers": ["a", "b", "c", "d", "e", "f"],
+        "keys": {
+          "1": "c",
+          "2": "d",
+          "3": "f",
+          "4": "b",
+          "5": "e"
+        }
+      },
+      {
+        "name": "Reading. Questions 6-10.",
+        "type": "short-answer-questions",
+        "exercise": "Answer the questions. Write no more than THREE words from the text. Do NOT change the words from the text.",
+        "example": "Example:  What was Jules impressed by when he was a boy? Answer: ships",
+        "contents": [
+          {
+            "type": "question",
+            "question": "Who stopped Jules from working on a ship?"
+          },
+          {
+            "type": "question",
+            "question": "What did he write for the magazine?"
+          },
+          {
+            "type": "question",
+            "question": "What did Verne write after he wasn’t allowed to marry?"
+          },
+          {
+            "type": "question",
+            "question": "What did Hetzel notice in the young author?"
+          },
+          {
+            "type": "question",
+            "question": "What did Jules Verne achieve due to his novels?"
+          }
+        ],
+        "keys": {
+          "1": ["his parents", "parents"],
+          "2": ["articles"],
+          "3": ["poetry"],
+          "4": ["huge potential", "a huge potential"],
+          "5": ["the global popularity", "global popularity"]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Task 1",
+    "level": "A2",
+    "task_number": 3,
+    "variant": 1,
+    "type": "reading",
+    "parts": [
+      {
+        "name": "Reading.",
+        "exercise": "Read the text and fill in the gaps 1-6 with one word from the menu. First, look at the example 0.",
+        "type": "filling-gaps",
+        "contents": [
+          {
+            "type": "gaps-text",
+            "text": "Why {(0)} do many people prefer risky sports? {(1)} sports as car races or alpinism are very popular. But {(2)} sports are very dangerous. First of all, you feel very excited and your body produces {(3)} of adrenaline. And adrenaline helps to produce serotonin – the hormone of happiness. So, when we do {(4)} dangerous, we feel happy at the end. Also, our daily life can be very dull. So, it is important {(5)} many people to understand that they are able to do difficult things. However, there can be other ways to feel excited. For example, to solve {(6)} difficult problem."
+          }
+        ],
+        "answers": {
+          "0": ["do"],
+          "1": ["Such", "like", "so"],
+          "2": ["these", "this", "that"],
+          "3": ["many", "a lot", "much"],
+          "4": ["anything", "everything", "something"],
+          "5": ["for", "to", "in"],
+          "6": ["a", "no article", "the"]
+        },
+        "keys": {
+          "1": "Such",
+          "2": "these",
+          "3": "a lot",
+          "4": "something",
+          "5": "for",
+          "6": "no article"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Task 2",
+    "level": "A2",
+    "task_number": 4,
+    "variant": 1,
+    "type": "reading",
+    "parts": [
+      {
+        "name": "Reading.",
+        "exercise": "Read the text and fill the gaps (1-6) with the forms of words in CAPITALS. First, look at the example (0).",
+        "type": "filling-gaps-forms",
+        "contents": [
+          {
+            "type": "gaps-text",
+            "text": "Today people can {(0)} easily make a trip from Europe to China. In the 13 th century such trips were very unusual. Europeans knew how to get there, but such journeys were long and {(1)}. There were very few people who visited China, India or Japan. Marco Polo was an {(2)} merchant, traveler and writer. He spent about 24 years of his {(3)} in the East and had many adventures and meetings with people from far-away Eastern countries. When he came back, he wrote a very {(4)} book about his travels. It was very popular with European readers for many centuries. But we do not know if everything Polo writes about {(5)} happened to him. Some of his stories are like fairytales. Historians still are not sure what  {(6)} he saw with his own eyes and what he invented or heard from other people."
+          }
+        ],
+        "answers": ["easy", "danger", "italy", "live", "excite", "real", "exact"],
+        "keys": {
+          "0": "easily",
+          "1": "dangerous",
+          "2": "italian",
+          "3": "life",
+          "4": "exciting",
+          "5": "really",
+          "6": "exactly"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Task 1",
+    "level": "A2",
+    "task_number": 3,
+    "variant": 1,
+    "type": "reading",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Mikołaj Kopernik is known as one of the fathers of modern astronomy. He is usually called by his Latin name Nicolaus Copernicus. He was born in 1473 in the city of Torun in a rich family. His father was Polish, and his mother was German. He was the youngest of five children. He studied first in Krakow university and then went to Italy to continue and complete his education. Both in Poland and in Italy he studied mathematics and astronomy. In Italy he also got interested in medicine. All his life Copernicus was very religious. As a young man, he became a monk and never had a family of his own.   Copernicus thought that it was impossible to understand astronomy without using mathematics. At that time people believed that the Earth was the centre of the universe.  So the Sun, the Moon and all planets and stars were moving around our planet. This theory came from ancient Greece. Some people think that Copernicus knew about this second theory, which  was also  born in Greece. That second theory put the Sun in the centre. It was called heliocentric.  Using mathematics, Copernicus explained that the heliocentric theory was correct."
+      }
+    ],
+    "parts": [
+      {
+        "name": "Reading. Part 1. Questions 1-7.",
+        "exercise": "Read the text and then read the sentences (1-7). Mark them as TRUE or FALSE.",
+        "type": "true-false-questions",
+        "contents": [
+          {
+            "type": "question",
+            "question": "The Latin name Copernicus is used not so often as his real name."
+          },
+          {
+            "type": "question",
+            "question": "He was the 5 th child in the family."
+          },
+          {
+            "type": "question",
+            "question": "Copernicus was always interested in medicine."
+          },
+          {
+            "type": "question",
+            "question": "He never married because he was a monk."
+          },
+          {
+            "type": "question",
+            "question": "The two theories of the universe came from ancient Greece."
+          },
+          {
+            "type": "question",
+            "question": "It is clear that Copernicus knew about the Greek heliocentric theory."
+          },
+          {
+            "type": "question",
+            "question": "Copernicus used calculations to prove the heliocentric theory."
+          }
+        ],
+        "keys": {
+          "1": "false",
+          "2": "true",
+          "3": "false",
+          "4": "true",
+          "5": "true",
+          "6": "false",
+          "7": "true"
+        }
+      },
+      {
+        "name": "Reading. Part 2. Questions 8-12.",
+        "exercise": "Fill in the gaps in the sentences (8-12) with ONE or TWO words from the text.  Do NOT change the words from the text.",
+        "type": "filling-gaps-forms",
+        "contents": [
+          {
+            "type": "gaps-text",
+            "text": "Copernicus finished his {(1)} in Italy."
+          },
+          {
+            "type": "gaps-text",
+            "text": "He did not study {(2)} in Krakow."
+          },
+          {
+            "type": "gaps-text",
+            "text": "Copernicus knew that he needed {(3)} to understand the universe."
+          },
+          {
+            "type": "gaps-text",
+            "text": "Both theories of the universe came from {(4)}"
+          },
+          {
+            "type": "gaps-text",
+            "text": "He used {(5)} to prove that the sun was in the centre."
+          }
+        ],
+        "keys": {
+          "1": "education",
+          "2": "medicine",
+          "3": "mathematics",
+          "4": ["Ancient Greece", "Greece"],
+          "5": "mathematics"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Task 1",
+    "level": "B1",
+    "task_number": 3,
+    "variant": 1,
+    "type": "reading",
+    "contents": [
+      {
+        "type": "paragraph",
+        "text": "Indians’ winter houses are constructed mainly of skins and poles, covered over with grass and mud. They are very comfortable and have enough space for many people. The floor is a foot or two below the surface of the ground. (1). These buildings look like roofs of ordinary houses placed on the ground. Each family has its own fire. As they do not have chimneys, there are holes above each fire to send the smoke outside. (2). These houses are generally long and narrow, and contain each from one to five or six families."
+      },
+      {
+        "type": "paragraph",
+        "text": "As soon as the snow begins to disappear in the spring, the winter camps break up, and the whole tribe disperses here and there into small parties or families. (3). Here, then, their fish barriers are constructed, by the united labour of the whole village or camp staying in one place. (4). The tribe then elects one or more men to oversee how the catch is divided between families. (5). Their authority is law in such matters till the end of the fishing season, which is generally about the beginning of October."
+      },
+      {
+        "type": "paragraph",
+        "text": "As soon as the fish season is over, the Indians move to woods or mountains, as they did in the spring, and divide into little groups for the purpose of hunting various animals. (6). During this season they remain in their habitations, constructed as already described."
+      }
+    ],
+    "parts": [
+      {
+        "name": "Reading. Questions 1-6.",
+        "exercise": "Read the text and fill in the gaps (1-6) with the sentences (A-G). There is one extra sentence which you will not need.",
+        "type": "match-paragraphs",
+        "contents": [
+          {
+            "type": "heading",
+            "text": "Usually there are several doors, which in fact are holes covered with skins lifted up and down every time a person goes in or out."
+          },
+          {
+            "type": "heading",
+            "text": "The Indians, after a month or six weeks in hunting, get together again into large groups to spend the winter on the banks of small rivers, where there is a lot of wood."
+          },
+          {
+            "type": "heading",
+            "text": "These people are very good at both fishing and hunting."
+          },
+          {
+            "type": "heading",
+            "text": "They travel around till the middle of June, when they all get together again in large groups on the banks of different rivers, for the purpose of fishing during the summer season."
+          },
+          {
+            "type": "heading",
+            "text": "This makes the whole house much warmer."
+          },
+          {
+            "type": "heading",
+            "text": "The person or persons chosen in such a way divide the fish every morning, and control the whole situation with the barrier and fish for the current year."
+          },
+          {
+            "type": "heading",
+            "text": "There is plenty of salmon in local rivers, so as soon as the barriers are finished, their catch is quite big."
+          }
+        ],
+        "answers": ["a", "b", "c", "d", "e", "f", "g"],
+        "keys": {
+          "1": "e",
+          "2": "a",
+          "3": "d",
+          "4": "g",
+          "5": "f",
+          "6": "b"
+        }
+      },
+      {
+        "name": "Reading. Questions 7-12.",
+        "type": "filling-gaps-forms",
+        "exercise": "Read the text again and fill in the gaps in the sentences (7-12) with one or two words from the text. Do NOT change the words from the text.",
+        "contents": [
+          {
+            "type": "gaps-text",
+            "text": "Indians use skins, poles and mud to build their {(1)}."
+          },
+          {
+            "type": "gaps-text",
+            "text": "The smoke from fires is going outside through {(2)} in the roof."
+          },
+          {
+            "type": "gaps-text",
+            "text": "A house is big enough for up to {(3)} families to live in it."
+          },
+          {
+            "type": "gaps-text",
+            "text": "As soon as the spring comes, {(4)} breaks into small groups and families."
+          },
+          {
+            "type": "gaps-text",
+            "text": "In June, all members of the tribe take part in building {(5)} to catch salmon."
+          },
+          {
+            "type": "gaps-text",
+            "text": "The tribe chooses one or {(6)} to ensure that fish is divided fairly between families."
+          }
+        ],
+        "keys": {
+          "1": "winter houses",
+          "2": "holes",
+          "3": "six",
+          "4": "the tribe",
+          "5": "fish barriers",
+          "6": "more men"
+        }
+      }
+    ]
+  }
+]

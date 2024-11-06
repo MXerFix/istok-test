@@ -167,7 +167,7 @@ export class AdaptiveTest {
   private currentLevel: Level
   private score: number = 0
 
-  constructor(questions: Task[], initialLevel: Level = "A2") {
+  constructor(questions: Task[], initialLevel: Level = "B1") {
     this.questions = questions
     this.currentLevel = initialLevel
   }
@@ -179,19 +179,27 @@ export class AdaptiveTest {
     )
   }
 
-  public getQuestionByIndex(index: number): Task | undefined {
-    console.log(this.questions, index)
-    return this.questions.find((q, i) => q.level === this.currentLevel && i === index)
+  public getRandomQuestion(index: number): Task | undefined {
+    console.log(this.questions)
+    console.log(this.questions.filter((q) => q.task_number === index))
+    console.log(this.questions.filter((q) => q.level === this.currentLevel))
+    const availableQuestions = this.questions.filter(
+      (q) => q.level === this.currentLevel && q.task_number === index
+    )
+    console.log(availableQuestions)
+    if (!availableQuestions.length) return this.questions.filter((q) => q.task_number === index)[0]
+    const randomIndex = Math.floor(Math.random() * (availableQuestions.length - 1))
+    return availableQuestions[randomIndex]
   }
 
   // Обработка ответа и обновление уровня
   public handleAnswer(correctPercentage: number): void {
-    // if (correctPercentage >= 0.8) {
-    //   this.score += 1
-    //   this.increaseLevel()
-    // } else if (correctPercentage < 0.6) {
-    //   this.decreaseLevel()
-    // }
+    if (correctPercentage >= 0.8) {
+      this.score += 1
+      this.increaseLevel()
+    } else if (correctPercentage < 0.6) {
+      this.decreaseLevel()
+    }
     this.nextQuestion()
   }
 
@@ -202,19 +210,33 @@ export class AdaptiveTest {
 
   // Повышение уровня
   private increaseLevel(): void {
-    if (this.currentLevel === "C1") return
-    this.currentLevel = `B${+this.currentLevel[1] + 1}` as Level
+    if (this.currentLevel === "B2") return
+    if (this.currentLevel === "B1") {
+      this.currentLevel = "B2"
+      return
+    }
+    if (this.currentLevel === "A2") {
+      this.currentLevel = "B1"
+      return
+    }
   }
 
   // Понижение уровня
   private decreaseLevel(): void {
     if (this.currentLevel === "A2") return
-    this.currentLevel = `B${+this.currentLevel[1] - 1}` as Level
+    if (this.currentLevel === "B1") {
+      this.currentLevel = "A2"
+      return
+    }
+    if (this.currentLevel === "B2") {
+      this.currentLevel = "B1"
+      return
+    }
   }
 
   // Проверка завершения теста
   public isTestComplete(): boolean {
-    return this.currentQuestionIndex >= this.questions.length
+    return this.currentQuestionIndex >= 4
   }
 
   // Получение итогов
