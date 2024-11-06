@@ -6,7 +6,6 @@ import { useEffect, useRef, useState } from "react"
 
 const getPreviousPartsKeysLength = (partNumber: number, task: Task) => {
   const previousParts = task.parts.slice(0, partNumber - 1)
-  console.log(previousParts)
   return previousParts.reduce((acc, part) => {
     return acc + Object.keys(part.keys).length
   }, 0)
@@ -51,11 +50,11 @@ const QuestionAnswerPart = ({ part, task, partNumber, onUserAnswer }: Props) => 
               key={i}
               className='flex items-center justify-start gap-4'>
               <span className='text-2xl font-semibold w-4 mr-4 inline-block'>
-                {previousPartsKeysLength + i + 1}.
+                {part.answers[0] !== "a" ? part.answers[i] : previousPartsKeysLength + i + 1}.
               </span>
               <input
                 ref={(el) => {
-                  inputRefs.current[i] = el;
+                  inputRefs.current[i] = el
                 }}
                 autoFocus={i === 0}
                 id={(task.task_number + partNumber + i).toString()}
@@ -74,7 +73,6 @@ const QuestionAnswerPart = ({ part, task, partNumber, onUserAnswer }: Props) => 
   }
 
   if (part.type === "short-answer-questions") {
-    console.log(part.contents)
     return (
       <div className='grid gap-2'>
         <p className='text-2xl font-bold mb-8'>Your answer:</p>

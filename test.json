@@ -155,14 +155,14 @@
             "text": "The sum to pay for a lost book."
           }
         ],
-        "answers": ["a", "b", "c", "d", "e", "f", "g"],
+        "answers": ["150", "8", "50", "4", "80", "2"],
         "keys": {
-          "150": "f",
-          "8": "a",
-          "50": "c",
+          "1": "f",
+          "2": "a",
+          "3": "c",
           "4": "b",
-          "80": "g",
-          "2": "e"
+          "5": "g",
+          "6": "e"
         }
       }
     ]
@@ -822,7 +822,7 @@
     "parts": [
       {
         "name": "Reading. Questions 1-6.",
-        "exercise": "Read the text and fill in the gaps ({1}-{6}) with the sentences (a-g). There is one extra sentence which you will not need.",
+        "exercise": "Read the text and fill in the gaps (1-6) with the sentences (a-g). There is one extra sentence which you will not need.",
         "type": "match-paragraphs",
         "contents": [
           {
@@ -867,27 +867,27 @@
         "contents": [
           {
             "type": "gaps-text",
-            "text": "John Jacob Astor decided to move to America at the age of ({1})."
+            "text": "John Jacob Astor decided to move to America at the age of {(1)}."
           },
           {
             "type": "gaps-text",
-            "text": "In the first half of the 19th century, ({2}) from beaver fur were in fashion in Europe."
+            "text": "In the first half of the 19th century, {(2)} from beaver fur were in fashion in Europe."
           },
           {
             "type": "gaps-text",
-            "text": "At some stage, Astor understood that it was possible to make money without leaving ({3})."
+            "text": "At some stage, Astor understood that it was possible to make money without leaving {(3)}."
           },
           {
             "type": "gaps-text",
-            "text": "A street and a ({4}) were named after John Jacob Astor."
+            "text": "A street and a {(4)} were named after John Jacob Astor."
           },
           {
             "type": "gaps-text",
-            "text": "Developers who rented the Astors’ land did not see any sense in constructing ({5}) there."
+            "text": "Developers who rented the Astors’ land did not see any sense in constructing {(5)} there."
           },
           {
             "type": "gaps-text",
-            "text": "Brooke was the first Astor who helped ({6}) building houses for them."
+            "text": "Brooke was the first Astor who helped {(6)} building houses for them."
           }
         ],
         "keys": {
@@ -1063,27 +1063,27 @@
         "contents": [
           {
             "type": "gaps-text",
-            "text": "Documents on medicine written in Ancient Egypt contain information on ({1}) of other sciences."
+            "text": "Documents on medicine written in Ancient Egypt contain information on {(1)} of other sciences."
           },
           {
             "type": "gaps-text",
-            "text": "The first doctor, whose name was preserved in documents, lived about ({2})."
+            "text": "The first doctor, whose name was preserved in documents, lived about {(2)}."
           },
           {
             "type": "gaps-text",
-            "text": "The Ebers Papyrus proves that ancient physicians knew how the human heart was connected with the ({3})."
+            "text": "The Ebers Papyrus proves that ancient physicians knew how the human heart was connected with the {(3)}."
           },
           {
             "type": "gaps-text",
-            "text": "Some medicines used in Ancient Egypt were based on ({4}) that are still used today."
+            "text": "Some medicines used in Ancient Egypt were based on {(4)} that are still used today."
           },
           {
             "type": "gaps-text",
-            "text": "A Babylonian doctor sent his recommendations on how to help the ({5})."
+            "text": "A Babylonian doctor sent his recommendations on how to help the {(5)}."
           },
           {
             "type": "gaps-text",
-            "text": "The Babylonian documents tell us also about the important role of ({6}) in medicine of that time."
+            "text": "The Babylonian documents tell us also about the important role of {(6)} in medicine of that time."
           }
         ],
         "keys": {
@@ -1161,27 +1161,27 @@
         "contents": [
           {
             "type": "gaps-text",
-            "text": "It was ({1}) that saved for us much of the knowledge created by more ancient civilizations."
+            "text": "It was {(1)} that saved for us much of the knowledge created by more ancient civilizations."
           },
           {
             "type": "gaps-text",
-            "text": "The ideas and practical knowledge of ancient Assyrians and Babylonians are not as difficult for us to understand as the complexity of ({2})."
+            "text": "The ideas and practical knowledge of ancient Assyrians and Babylonians are not as difficult for us to understand as the complexity of {(2)}."
           },
           {
             "type": "gaps-text",
-            "text": "Some scientific facts are so ({3}) that we do not think about their origins."
+            "text": "Some scientific facts are so {(3)} that we do not think about their origins."
           },
           {
             "type": "gaps-text",
-            "text": "People used to connect the seven days of the week with the planets and other ({4})."
+            "text": "People used to connect the seven days of the week with the planets and other {(4)}."
           },
           {
             "type": "gaps-text",
-            "text": "The number of days in a week is connected with ({5})  and scientific knowledge of very old civilizations."
+            "text": "The number of days in a week is connected with {(5)} and scientific knowledge of very old civilizations."
           },
           {
             "type": "gaps-text",
-            "text": "Interestingly, the buildings in ancient Assyria and Babylonia were constructed with their walls facing towards the four main ({6}) directions."
+            "text": "Interestingly, the buildings in ancient Assyria and Babylonia were constructed with their walls facing towards the four main {(6)} directions."
           }
         ],
         "keys": {

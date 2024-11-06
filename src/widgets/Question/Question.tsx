@@ -44,7 +44,7 @@ const Question = ({ question, part, onAnswer }: QuestionProps) => {
     })
   }
 
-  console.log(userAnswers)
+  // console.log(userAnswers)
 
   const handleAnswer = () => {
     onAnswer(checkAnswers(userAnswers, currentPart.keys))

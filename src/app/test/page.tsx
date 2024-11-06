@@ -30,7 +30,7 @@ const TestPage = () => {
     setCurrentQuestion(test.getRandomQuestion(currentStep))
   }, [currentStep])
 
-  console.log(intResults)
+  console.log(finalResults)
 
   const handleAnswer = (correctPercentage: number) => {
     if (currentQuestion?.parts && currentQuestion.parts.length > 1) {
@@ -43,7 +43,6 @@ const TestPage = () => {
     const result =
       (intResults.reduce((acc, intResult) => acc + intResult, 0) + correctPercentage) /
       (intResults.length + 1)
-    console.log(result)
     setFinalResults([...finalResults, result])
     test.handleAnswer(result) // Обработка ответа
     setIntResults([])
@@ -56,16 +55,14 @@ const TestPage = () => {
   // Если текущего вопроса больше нет, значит, тест завершен
   if (!currentQuestion || test.isTestComplete()) {
     // router.push("/test/results") // Переход на страницу результатов
+    const finalPercentage =
+      finalResults.reduce((acc, result) => acc + result, 0) / finalResults.length
     console.log("no questions")
     return (
       <div className='w-full h-full flex flex-col items-center justify-center text-6xl font-semibold'>
         <p>Тест завершен! Результат:</p>
-        <p className='text-primary-green-dark font-uncage'>
-          {Math.round(
-            (finalResults.reduce((acc, result) => acc + result, 0) / finalResults.length) * 100
-          )}
-          %
-        </p>
+        <p className='text-primary-green-dark font-uncage'>{Math.round(finalPercentage * 100)}%</p>
+        <p>Уровень владения языком: {test.getResults(finalPercentage)}</p>
       </div>
     )
   }

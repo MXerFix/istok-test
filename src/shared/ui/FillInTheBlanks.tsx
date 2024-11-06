@@ -36,7 +36,6 @@ const FillInTheBlanks: React.FC<FillInTheBlanksProps> = ({
               (acc, option) => Math.max(acc, option.length),
               0
             )
-            console.log(maxOptionLength)
             const maxOptionWidth = `${maxOptionLength * 8 + 128}px`
 
             return (

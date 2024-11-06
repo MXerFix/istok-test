@@ -161,6 +161,8 @@ export interface SpeakingTask extends BaseTask {
 
 export type Task = ReadingTask | ListeningTask | WritingTask | SpeakingTask
 
+const levels = ["A1", "A2", "B1", "B2", "C1", "C2"]
+
 export class AdaptiveTest {
   public questions: Task[]
   private currentQuestionIndex: number = 0
@@ -180,13 +182,12 @@ export class AdaptiveTest {
   }
 
   public getRandomQuestion(index: number): Task | undefined {
-    console.log(this.questions)
-    console.log(this.questions.filter((q) => q.task_number === index))
-    console.log(this.questions.filter((q) => q.level === this.currentLevel))
+    // console.log(this.questions)
+    // console.log(this.questions.filter((q) => q.task_number === index))
+    // console.log(this.questions.filter((q) => q.level === this.currentLevel))
     const availableQuestions = this.questions.filter(
       (q) => q.level === this.currentLevel && q.task_number === index
     )
-    console.log(availableQuestions)
     if (!availableQuestions.length) return this.questions.filter((q) => q.task_number === index)[0]
     const randomIndex = Math.floor(Math.random() * (availableQuestions.length - 1))
     return availableQuestions[randomIndex]
@@ -240,10 +241,19 @@ export class AdaptiveTest {
   }
 
   // Получение итогов
-  public getResults() {
-    return {
-      score: this.score,
-      finalLevel: this.currentLevel,
+  public getResults(finalPercentage: number): string {
+    if (finalPercentage >= 0.9) {
+      if (this.currentLevel === "B2") {
+        return "C1"
+      }
+      return levels[levels.indexOf(this.currentLevel) + 1]
     }
+    if (finalPercentage <= 0.6) {
+      if (this.currentLevel === "A2") {
+        return "A1"
+      }
+      return levels[levels.indexOf(this.currentLevel) - 1]
+    }
+    return this.currentLevel
   }
 }

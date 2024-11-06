@@ -11,7 +11,6 @@ type Props = {
 const QuestionPartContents = ({ partContents, part, onUserAnswer }: Props) => {
   const { type } = partContents
   if (type === "gaps-text" && part.type === "filling-gaps") {
-    console.log(partContents)
     return (
       <div>
         <FillInTheBlanks
@@ -24,7 +23,6 @@ const QuestionPartContents = ({ partContents, part, onUserAnswer }: Props) => {
   }
 
   if (type === "gaps-text" && part.type === "filling-gaps-forms") {
-    console.log(partContents)
     return (
       <div>
         <FillInTheBlanks
