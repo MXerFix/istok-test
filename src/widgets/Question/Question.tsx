@@ -86,7 +86,8 @@ const Question = ({ question, part, onAnswer }: QuestionProps) => {
             <div className='bg-primary-neutral w-full rounded-[48px] px-14 py-8 flex flex-col gap-4'>
               <div>
                 <audio
-                  key={part} controls controlsList={'nodownload, noplaybackrate'}>
+                  src={`${window.location.origin}/${question.contents[0].url}`}
+                  controls>
                   <source
                     src={`${window.location.origin}/${question.contents[0].url}`}
                     type='audio/mpeg'
