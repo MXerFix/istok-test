@@ -1,11 +1,15 @@
 "use client"
 import { AdaptiveTest, Task } from "@/features/test/AdaptiveTest"
-import Question from "@/widgets/Question/Question"
 // import { useRouter } from "next/navigation"
 import { cn } from "@/shared/lib/utils"
 import Header from "@/widgets/Header/Header"
+import dynamic from "next/dynamic"
 import { useEffect, useState } from "react"
 import questions from "../../../test.json"
+
+const Question = dynamic(() => import("../../widgets/Question/Question"), {
+  ssr: false,
+})
 
 const TestPage = () => {
   // const router = useRouter()
@@ -63,7 +67,7 @@ const TestPage = () => {
     <div className='bg-background min-h-screen'>
       <Header isLoginButtonsHide />
       <div className='flex items-start justify-between gap-8 px-20 py-32'>
-        <div className="flex min-w-16" />
+        <div className='flex min-w-16' />
         <div className='fixed flex flex-col gap-4 items-center justify-start'>
           {questions.map((q, i) => (
             <div key={i}>
