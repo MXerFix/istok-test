@@ -51,7 +51,7 @@ const Footer = () => {
           <a>Политика конфиденциальности</a>
           <a>Условия пользования</a>
         </div>
-        <span className='text-xs font-semibold ml-auto'>v0.0.13a</span>
+        <span className='text-xs font-semibold ml-auto'>v0.0.14a</span>
       </div>
     </footer>
   )

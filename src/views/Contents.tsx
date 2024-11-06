@@ -129,7 +129,7 @@ const Contents = () => {
               />
             }>
             <h5 className='text-2xl font-semibold text-white mb-4'>Мгновенные результаты</h5>
-            <p className='text-white text-xl'>Быстрое предоствление результатов и сертификатов</p>
+            <p className='text-white text-xl'>Быстрое предоставление результатов и сертификатов</p>
           </PatternCard>
           <PatternCard
             icon={

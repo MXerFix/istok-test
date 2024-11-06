@@ -3,11 +3,13 @@ import { AdaptiveTest, Task } from "@/features/test/AdaptiveTest"
 // import { useRouter } from "next/navigation"
 import { cn } from "@/shared/lib/utils"
 import { Pattern } from "@/shared/svg/Pattern"
+import TestEndIll from "@/shared/svg/TestEndIll"
 import TestStartPageIll from "@/shared/svg/TestStartPageIll"
 import Header from "@/widgets/Header/Header"
 import { Button } from "@headlessui/react"
-import { PlayIcon } from "lucide-react"
+import { ArrowUpRightIcon, PlayIcon } from "lucide-react"
 import dynamic from "next/dynamic"
+import Link from "next/link"
 import { useEffect, useState } from "react"
 import questions from "../../../test.json"
 
@@ -30,7 +32,7 @@ const TestPage = () => {
     setCurrentQuestion(test.getRandomQuestion(currentStep))
   }, [currentStep])
 
-  console.log(finalResults)
+  // console.log(finalResults)
 
   const handleAnswer = (correctPercentage: number) => {
     if (currentQuestion?.parts && currentQuestion.parts.length > 1) {
@@ -59,10 +61,31 @@ const TestPage = () => {
       finalResults.reduce((acc, result) => acc + result, 0) / finalResults.length
     console.log("no questions")
     return (
-      <div className='w-full h-full flex flex-col items-center justify-center text-6xl font-semibold'>
-        <p>Тест завершен! Результат:</p>
-        <p className='text-primary-green-dark font-uncage'>{Math.round(finalPercentage * 100)}%</p>
-        <p>Уровень владения языком: {test.getResults(finalPercentage)}</p>
+      <div className='w-full h-screen grid grid-cols-2 items-center justify-center gap-4 pl-24 pr-8'>
+        <div className='bg-primary-green rounded-[48px] px-14 pt-32 pb-20 relative overflow-hidden'>
+          <Pattern
+            fill='hsl(var(--primary-green-dark))'
+            className='absolute top-0'
+          />
+          <div className='relative flex flex-col items-center justify-start'>
+            <h3 className='text-5xl font-bold mb-8 text-center'>Вы успешно прошли тестирование!</h3>
+            <p className='mb-4 text-2xl font-bold'>Ваш уровень:</p>
+            <p className='mb-4 text-[64px] font-bold'>{test.getResults(finalPercentage)}</p>
+            <p className='text-xl font-medium mb-4 text-center'>
+              Спасибо за участие. Желаем успехов в дальнейшем изучении иностранного языка!
+            </p>
+            <Link
+              className='text-xl w-max font-semibold bg-background rounded-full px-6 py-4 flex items-center justify-center gap-2'
+              href={"/"}>
+              Перейти на главную
+              <ArrowUpRightIcon strokeWidth={2.5} />
+            </Link>
+          </div>
+          {/* <p className='text-primary-green-dark font-uncage'>
+            {Math.round(finalPercentage * 100)}%
+          </p> */}
+        </div>
+        <TestEndIll className="w-full" />
       </div>
     )
   }

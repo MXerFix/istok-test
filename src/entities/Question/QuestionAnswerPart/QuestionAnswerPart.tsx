@@ -49,8 +49,13 @@ const QuestionAnswerPart = ({ part, task, partNumber, onUserAnswer }: Props) => 
             <div
               key={i}
               className='flex items-center justify-start gap-4'>
-              <span className='text-2xl font-semibold w-4 mr-4 inline-block'>
-                {part.answers[0] !== "a" ? part.answers[i] : previousPartsKeysLength + i + 1}.
+              <span className={cn(
+                'text-2xl font-semibold w-4 mr-4 inline-block',
+                part.answers[0] !== "a" && "w-20"
+              )}>
+                {part.answers[0] !== "a"
+                  ? `${previousPartsKeysLength + i + 1}) ${part.answers[i]}`
+                  : `${previousPartsKeysLength + i + 1}.`}
               </span>
               <input
                 ref={(el) => {

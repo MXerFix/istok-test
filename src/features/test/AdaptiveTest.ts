@@ -188,18 +188,30 @@ export class AdaptiveTest {
     const availableQuestions = this.questions.filter(
       (q) => q.level === this.currentLevel && q.task_number === index
     )
-    if (!availableQuestions.length) return this.questions.filter((q) => q.task_number === index)[0]
+    if (!availableQuestions.length) {
+      const anyQuestionsWithCurrentIndex = this.questions.filter((q) => q.task_number === index)
+      const newQuestion =
+        anyQuestionsWithCurrentIndex[
+          Math.floor(Math.random() * anyQuestionsWithCurrentIndex.length)
+        ]
+      if (!newQuestion) return undefined
+      this.currentLevel = newQuestion.level
+      return newQuestion
+    }
     const randomIndex = Math.floor(Math.random() * (availableQuestions.length - 1))
     return availableQuestions[randomIndex]
   }
 
   // Обработка ответа и обновление уровня
   public handleAnswer(correctPercentage: number): void {
+    console.log(correctPercentage)
     if (correctPercentage >= 0.8) {
       this.score += 1
       this.increaseLevel()
     } else if (correctPercentage < 0.6) {
       this.decreaseLevel()
+    } else {
+      console.log("no changes level, current level: ", this.currentLevel)
     }
     this.nextQuestion()
   }
@@ -212,27 +224,23 @@ export class AdaptiveTest {
   // Повышение уровня
   private increaseLevel(): void {
     if (this.currentLevel === "B2") return
-    if (this.currentLevel === "B1") {
+    else if (this.currentLevel === "B1") {
       this.currentLevel = "B2"
-      return
-    }
-    if (this.currentLevel === "A2") {
+    } else if (this.currentLevel === "A2") {
       this.currentLevel = "B1"
-      return
     }
+    console.log("increase, new level: ", this.currentLevel)
   }
 
   // Понижение уровня
   private decreaseLevel(): void {
     if (this.currentLevel === "A2") return
-    if (this.currentLevel === "B1") {
+    else if (this.currentLevel === "B1") {
       this.currentLevel = "A2"
-      return
-    }
-    if (this.currentLevel === "B2") {
+    } else if (this.currentLevel === "B2") {
       this.currentLevel = "B1"
-      return
     }
+    console.log("decrease, new level: ", this.currentLevel)
   }
 
   // Проверка завершения теста
