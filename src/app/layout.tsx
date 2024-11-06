@@ -30,8 +30,8 @@ const nebulas = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "ISTOK Demo",
-  description: "",
+  title: "ИСТ.ОК Демо",
+  description: "Демонстрационная страница для первой национальной системы тестирования ИСТ.ОК.",
   icons: "./favicon.svg",
 }
 

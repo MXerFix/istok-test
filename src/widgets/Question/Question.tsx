@@ -1,4 +1,5 @@
 "use client"
+import AudioPlayer from "@/entities/AudioPlayer/AudioPlayer"
 import QuestionContentPart from "@/entities/Question/QuestionContentPart/QuestionContentPart"
 import QuestionParagraphContent from "@/entities/Question/QuestionParagraphContent"
 import { Task } from "@/features/test/AdaptiveTest"
@@ -66,6 +67,25 @@ const Question = ({ question, part, onAnswer }: QuestionProps) => {
         <h2 className='text-2xl font-bold uppercase'>{question.name}</h2>
         <p className='text-2xl font-bold'>{currentPart.name}</p>
         <p className='text-2xl font-semibold'>{currentPart.exercise}</p>
+        {currentPart.glossary && (
+          <div className='flex flex-col items-start justify-start italic'>
+            {currentPart.glossary.map((glossary, i) => (
+              <div
+                key={glossary.translation}
+                className='flex items-center justify-start gap-2'>
+                <p className='text-xl font-semibold'>{glossary.word}</p>-
+                <p className='text-xl font-medium'>{glossary.translation}</p>
+              </div>
+            ))}
+          </div>
+        )}
+        {question.type === "listening" && question.contents && (
+          <AudioPlayer
+            key={question.contents[0].url}
+            src={`${window.location.origin}/${question.contents[0].url}`}
+            disablePause
+          />
+        )}
       </div>
       {/* Question common content */}
       {(question.type === "reading" || question.type === "listening") && question.contents && (
@@ -75,26 +95,11 @@ const Question = ({ question, part, onAnswer }: QuestionProps) => {
               {question.contents.map((content, i) => (
                 <QuestionParagraphContent
                   i={i}
-                  key={i}
+                  key={content.text}
                   text={content.text}
                   type={content.type}
                 />
               ))}
-            </div>
-          )}
-          {question.type === "listening" && (
-            <div className='bg-primary-neutral w-full rounded-[48px] px-14 py-8 flex flex-col gap-4'>
-              <div>
-                <audio
-                  src={`${window.location.origin}/${question.contents[0].url}`}
-                  controls>
-                  <source
-                    src={`${window.location.origin}/${question.contents[0].url}`}
-                    type='audio/mpeg'
-                  />
-                  Your browser does not support the audio element.
-                </audio>
-              </div>
             </div>
           )}
         </>

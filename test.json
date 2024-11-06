@@ -90,6 +90,16 @@
       {
         "name": "Listening. Part 1. Questions 1-4.",
         "exercise": "Listen to four announcements for passengers travelling by plane. What do passengers need to do in each case? Match announcements (1-4) with passengers’ actions (A-E). Use letters only once. There is one extra letter which you do not need to use.",
+        "glossary": [
+          {
+            "word": "takeoff",
+            "translation": "взлёт"
+          },
+          {
+            "word": "boarding",
+            "translation": "посадка в самолёт"
+          }
+        ],
         "type": "match-paragraphs",
         "contents": [
           {
@@ -363,6 +373,16 @@
       {
         "name": "Reading. Part 1. Questions 1-6.",
         "exercise": "Read the text and choose a correct word for gaps 1-6. First, look at the example (0).",
+        "glossary": [
+          {
+            "word": "mourning",
+            "translation": "скорбь"
+          },
+          {
+            "word": "sorrow",
+            "translation": "горе"
+          }
+        ],
         "type": "filling-gaps",
         "contents": [
           {
@@ -445,6 +465,12 @@
       {
         "name": "Reading. Part 1. Questions 1-7.",
         "exercise": "Read the text and then read the sentences (1-7). Mark them as TRUE or FALSE.",
+        "glossary": [
+          {
+            "word": "monk",
+            "translation": "монах"
+          }
+        ],
         "type": "true-false-questions",
         "contents": [
           {
@@ -538,6 +564,12 @@
       {
         "name": "Reading. Part 1. Questions 1-7.",
         "exercise": "Read the text and then read the sentences (1-7). Mark them as TRUE or FALSE.",
+        "glossary": [
+          {
+            "word": "debt",
+            "translation": "долг"
+          }
+        ],
         "type": "true-false-questions",
         "contents": [
           {
@@ -725,6 +757,20 @@
       {
         "name": "Reading. Questions 1-6.",
         "exercise": "Read the text and fill in the gaps (1-6) with the sentences (A-G). There is one extra sentence which you will not need.",
+        "glossary": [
+          {
+            "word": "pole",
+            "translation": "шест"
+          },
+          {
+            "word": "chimney",
+            "translation": "дымоход"
+          },
+          {
+            "word": "salmon",
+            "translation": "лосось"
+          }
+        ],
         "type": "match-paragraphs",
         "contents": [
           {
@@ -823,6 +869,20 @@
       {
         "name": "Reading. Questions 1-6.",
         "exercise": "Read the text and fill in the gaps (1-6) with the sentences (a-g). There is one extra sentence which you will not need.",
+        "glossary": [
+          {
+            "word": "beaver",
+            "translation": "бобер"
+          },
+          {
+            "word": "real estate",
+            "translation": "недвижимость"
+          },
+          {
+            "word": "slums",
+            "translation": "трущобы"
+          }
+        ],
         "type": "match-paragraphs",
         "contents": [
           {
@@ -917,6 +977,20 @@
       {
         "name": "Reading. Historical faction. Questions 1-6.",
         "exercise": "Read the text and fill in the gaps (1-6) with the sentences (A-G). There is one extra sentence which you will not need.",
+        "glossary": [
+          {
+            "word": "gown",
+            "translation": "наряд, одежда"
+          },
+          {
+            "word": "underwear",
+            "translation": "нижнее белье"
+          },
+          {
+            "word": "velvet",
+            "translation": "бархат"
+          }
+        ],
         "type": "match-paragraphs",
         "contents": [
           {
@@ -962,6 +1036,12 @@
         "name": "Reading. Questions 7-12.",
         "type": "filling-gaps-forms",
         "exercise": "Read the text again and fill in the gaps in the sentences (7-12) with one or two words from the text. Do NOT change the words from the text.",
+        "glossary": [
+          {
+            "word": "wore",
+            "translation": "used"
+          }
+        ],
         "contents": [
           {
             "type": "gaps-text",
@@ -1015,6 +1095,20 @@
       {
         "name": "Reading. Questions 1-6.",
         "exercise": "Read the text and fill in the gaps (1-6) with the sentences (A-G). There is one extra sentence which you will not need.",
+        "glossary": [
+          {
+            "word": "a physician",
+            "translation": "a doctor"
+          },
+          {
+            "word": "incantation",
+            "translation": "the performance of words that are believed to have a magical effect when spoken or sung"
+          },
+          {
+            "word": "cataract",
+            "translation": "a disease in which an area of someone's eye becomes less clear"
+          }
+        ],
         "type": "match-paragraphs",
         "contents": [
           {

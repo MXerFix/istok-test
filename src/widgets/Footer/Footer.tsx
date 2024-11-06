@@ -12,7 +12,7 @@ const Footer = () => {
         <div className='grid gap-4 text-2xl font-semibold bg-primary-green-dark rounded-[48px] px-10 py-8'>
           <div className='grid gap-4'>
             <h6 className='flex items-center justify-start gap-2 text-primary-blue font-bold'>
-              <PhoneIcon strokeWidth={2.5} /> Номера телефонов:
+              <PhoneIcon strokeWidth={2.5} /> Контакты:
             </h6>
             <a
               className='font-uncage'
@@ -28,6 +28,11 @@ const Footer = () => {
               className='font-uncage'
               href='tel:+74987446567'>
               +7 (498) 744-65-67
+            </a>
+            <a
+              className='font-uncage'
+              href='mailto:dfl@mipt.ru'>
+              dfl@mipt.ru
             </a>
           </div>
           <div className='grid gap-4'>

@@ -69,6 +69,10 @@ export type TaskPartContent =
   | VocabularyContent
   | AudioContent
 
+export interface GlossaryObjectInterface {
+  word: string
+  translation: string
+}
 export interface TaskPartBase {
   name: string
   exercise: string
@@ -80,6 +84,7 @@ export interface TaskPartBase {
     | "short-answer-questions"
     | "match-paragraphs-listening"
   contents: TaskPartContent[]
+  glossary?: GlossaryObjectInterface[]
 }
 
 export interface TaskPartFillGaps extends TaskPartBase {
