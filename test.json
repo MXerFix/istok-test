@@ -1,0 +1,439 @@
+[
+  {
+    "name": "Task 0",
+    "level": "A2",
+    "task_number": 0,
+    "variant": 1,
+    "type": "listening",
+    "contents": [
+      {
+        "type": "audio",
+        "url": "0_listening.mp3"
+      }
+    ],
+    "parts": [
+      {
+        "name": "Listening. Questions 1-10.",
+        "exercise": "Listen to advertisements of three different language schools (A, B and C) and match the facts (1-10) with the schools (A, B and C).",
+        "type": "match-paragraphs-listening",
+        "contents": [
+          {
+            "type": "heading",
+            "text": "This school does not teach English."
+          },
+          {
+            "type": "heading",
+            "text": "This school is in an English-speaking country, but not in Great Britain."
+          },
+          {
+            "type": "heading",
+            "text": "This school teaches Business English."
+          },
+          {
+            "type": "heading",
+            "text": "This school offers courses in winter."
+          },
+          {
+            "type": "heading",
+            "text": "There are courses for students of different ages."
+          },
+          {
+            "type": "heading",
+            "text": "The groups in this school are not big."
+          },
+          {
+            "type": "heading",
+            "text": "You can choose a town where to study."
+          },
+          {
+            "type": "heading",
+            "text": "The school can organise sightseeing for students."
+          },
+          {
+            "type": "heading",
+            "text": "You can stay in this school for four weeks."
+          },
+          {
+            "type": "heading",
+            "text": "This school is situated in a very famous city."
+          }
+        ],
+        "answers": ["a", "b", "c"],
+        "keys": {
+          "1": "b",
+          "2": "a",
+          "3": "c",
+          "4": "b",
+          "5": "a",
+          "6": "c",
+          "7": "c",
+          "8": "b",
+          "9": "a",
+          "10": "b"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Task 1",
+    "level": "A2",
+    "task_number": 1,
+    "variant": 1,
+    "type": "listening",
+    "contents": [
+      {
+        "type": "audio",
+        "url": "A2_part1_listening.mp3"
+      },
+      {
+        "type": "audio",
+        "url": "A2_part1_listening.mp3"
+      }
+    ],
+    "parts": [
+      {
+        "name": "Listening. Part 1. Questions 1-4.",
+        "exercise": "Listen to four announcements for passengers travelling by plane. What do passengers need to do in each case? Match announcements (1-4) with passengers’ actions (A-E). Use letters only once. There is one extra letter which you do not need to use.",
+        "type": "match-paragraphs",
+        "contents": [
+          {
+            "type": "heading",
+            "text": "To board the plane or to wait for 15 minutes."
+          },
+          {
+            "type": "heading",
+            "text": "To show their documents."
+          },
+          {
+            "type": "heading",
+            "text": "To get ready for the takeoff."
+          },
+          {
+            "type": "heading",
+            "text": "To go to the gate very quickly."
+          },
+          {
+            "type": "heading",
+            "text": "To go to a different gate."
+          }
+        ],
+        "answers": ["a", "b", "c", "d", "e"],
+        "keys": {
+          "1": "c",
+          "2": "e",
+          "3": "a",
+          "4": "d"
+        }
+      },
+      {
+        "name": "Listening. Part 2. Questions 5-10.",
+        "exercise": "Listen to the information about university library rules and match the numbers (5-10) with the letters (A-G). There are two extra letters which you do not need to use. Use letters only once.",
+        "type": "match-paragraphs",
+        "contents": [
+          {
+            "type": "heading",
+            "text": "When the library closes on weekdays."
+          },
+          {
+            "type": "heading",
+            "text": "The number of books students can take."
+          },
+          {
+            "type": "heading",
+            "text": "The number of students who can take more books than others."
+          },
+          {
+            "type": "heading",
+            "text": "When the library closes on Saturdays."
+          },
+          {
+            "type": "heading",
+            "text": "The number of weeks books can be kept by students."
+          },
+          {
+            "type": "heading",
+            "text": "The number of places in the reading room."
+          },
+          {
+            "type": "heading",
+            "text": "The sum to pay for a lost book."
+          }
+        ],
+        "answers": ["a", "b", "c", "d", "e", "f", "g"],
+        "keys": {
+          "150": "f",
+          "8": "a",
+          "50": "c",
+          "4": "b",
+          "80": "g",
+          "2": "e"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Task 0",
+    "level": "A2",
+    "task_number": 2,
+    "variant": 1,
+    "type": "reading",
+    "contents": [
+      {
+        "type": "paragraph",
+        "text": "Jules Vernes (1828-1905), one of the greatest adventure and science fiction writers of all times, was born in the port city of Nantes in France. As a boy, he was fascinated by ships and dreamed about sea adventures. He heard a lot of such stories from his first teacher and from various sailors from the port. There is a story, maybe a fictional one, that at the age 11 he intended to become a cabin-boy on a ship but was stopped by his parents.  His favourite childhood book is thought to have been Robinson Crusoe.  The motive of a lonely man on an isolated island later will appear in some of his books.  "
+      },
+      {
+        "type": "paragraph",
+        "text": "However, his family had a clear idea of his future career, because his father was a well-known local lawyer. Jules had studied law both in Nantes and in Paris until he got his degree in 1851. But even before that he achieved his first literary success: his friend Alexandre Dumas-son produced Verne’s first play in his theatre in 1850. Having become a professional lawyer, Jules never seriously worked in this area. He was employed by a magazine as a writer and published articles on travel, history, and science. At the same time, he began writing short stories and later  novels"
+      },
+      {
+        "type": "paragraph",
+        "text": "Writing, however, was not an occupation that could guarantee financial stability and prosperity. The family of the girl Jules fell in love with, did not allow the young people to marry. This left him heartbroken and made him write poetry. So, as it can be seen, he tried himself in many literary genres but that did not make him financially stable. When he met his future wife, Honorine, in 1856, Jules had to start working in her father’s business to guarantee the family’s permission to marry his love."
+      },
+      {
+        "type": "paragraph",
+        "text": "The change in Jules Verne’s literary career came in 1860 when he met Pierre-Jules Hetzel, a wealthy and successful publisher who worked with the greatest French writers of that time. Hetzel saw a huge potential in the young author and even launched a new magazine where he published  of Jules Verne’s first adventure novel by separate chapters. This collaboration finally allowed Vernes to concentrate fully on his literary work."
+      },
+      {
+        "type": "paragraph",
+        "text": "Such novels as  Twenty Thousand Leagues Under the Sea , Around the World in Eighty Days, Captain Grant’s Children brought him the global popularity. Jules Verne is sometimes called the founder of the science fiction genre. He predicted many things – such as space flights and submarines.  His fame was so big that people tried to copy things described in his novels. For example, several people undertook to repeat the round-the-world trip described by Verne. Nancy Bly managed to make it in 72 days – in less than Verne’s characters."
+      }
+    ],
+    "parts": [
+      {
+        "name": "Reading. Questions 1-5.",
+        "exercise": "Read the text and match the headings (A-F) with the paragraphs (1-5). There is one extra heading which you will not need.",
+        "type": "match-paragraphs",
+        "contents": [
+          {
+            "type": "heading",
+            "text": "A new genre"
+          },
+          {
+            "type": "heading",
+            "text": "An important partnership"
+          },
+          {
+            "type": "heading",
+            "text": "Dreams about the sea"
+          },
+          {
+            "type": "heading",
+            "text": "Law or literature?"
+          },
+          {
+            "type": "heading",
+            "text": "Fame"
+          },
+          {
+            "type": "heading",
+            "text": "Love and money"
+          }
+        ],
+        "answers": ["a", "b", "c", "d", "e", "f"],
+        "keys": {
+          "1": "c",
+          "2": "d",
+          "3": "f",
+          "4": "b",
+          "5": "e"
+        }
+      },
+      {
+        "name": "Reading. Questions 6-10.",
+        "type": "short-answer-questions",
+        "exercise": "Answer the questions. Write no more than THREE words from the text. Do NOT change the words from the text.",
+        "example": "Example:  What was Jules impressed by when he was a boy? Answer: ships",
+        "contents": [
+          {
+            "type": "question",
+            "question": "Who stopped Jules from working on a ship?"
+          },
+          {
+            "type": "question",
+            "question": "What did he write for the magazine?"
+          },
+          {
+            "type": "question",
+            "question": "What did Verne write after he wasn’t allowed to marry?"
+          },
+          {
+            "type": "question",
+            "question": "What did Hetzel notice in the young author?"
+          },
+          {
+            "type": "question",
+            "question": "What did Jules Verne achieve due to his novels?"
+          }
+        ],
+        "keys": {
+          "1": ["his parents", "parents"],
+          "2": ["articles"],
+          "3": ["poetry"],
+          "4": ["huge potential", "a huge potential"],
+          "5": ["the global popularity", "global popularity"]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Task 1",
+    "level": "A2",
+    "task_number": 3,
+    "variant": 1,
+    "type": "reading",
+    "parts": [
+      {
+        "name": "Reading.",
+        "exercise": "Read the text and fill in the gaps 1-6 with one word from the menu. First, look at the example 0.",
+        "type": "filling-gaps",
+        "contents": [
+          {
+            "type": "gaps-text",
+            "text": "Why {(0)} do many people prefer risky sports? {(1)} sports as car races or alpinism are very popular. But {(2)} sports are very dangerous. First of all, you feel very excited and your body produces {(3)} of adrenaline. And adrenaline helps to produce serotonin – the hormone of happiness. So, when we do {(4)} dangerous, we feel happy at the end. Also, our daily life can be very dull. So, it is important {(5)} many people to understand that they are able to do difficult things. However, there can be other ways to feel excited. For example, to solve {(6)} difficult problem."
+          }
+        ],
+        "answers": {
+          "0": ["do"],
+          "1": ["Such", "like", "so"],
+          "2": ["these", "this", "that"],
+          "3": ["many", "a lot", "much"],
+          "4": ["anything", "everything", "something"],
+          "5": ["for", "to", "in"],
+          "6": ["a", "no article", "the"]
+        },
+        "keys": {
+          "1": "Such",
+          "2": "these",
+          "3": "a lot",
+          "4": "something",
+          "5": "for",
+          "6": "no article"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Task 2",
+    "level": "A2",
+    "task_number": 4,
+    "variant": 1,
+    "type": "reading",
+    "parts": [
+      {
+        "name": "Reading.",
+        "exercise": "Read the text and fill the gaps (1-6) with the forms of words in CAPITALS. First, look at the example (0).",
+        "type": "filling-gaps-forms",
+        "contents": [
+          {
+            "type": "gaps-text",
+            "text": "Today people can {(0)} easily make a trip from Europe to China. In the 13 th century such trips were very unusual. Europeans knew how to get there, but such journeys were long and {(1)}. There were very few people who visited China, India or Japan. Marco Polo was an {(2)} merchant, traveler and writer. He spent about 24 years of his {(3)} in the East and had many adventures and meetings with people from far-away Eastern countries. When he came back, he wrote a very {(4)} book about his travels. It was very popular with European readers for many centuries. But we do not know if everything Polo writes about {(5)} happened to him. Some of his stories are like fairytales. Historians still are not sure what  {(6)} he saw with his own eyes and what he invented or heard from other people."
+          }
+        ],
+        "answers": ["easy", "danger", "italy", "live", "excite", "real", "exact"],
+        "keys": {
+          "0": "easily",
+          "1": "dangerous",
+          "2": "italian",
+          "3": "life",
+          "4": "exciting",
+          "5": "really",
+          "6": "exactly"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Task 3",
+    "level": "A2",
+    "task_number": 5,
+    "variant": 1,
+    "type": "reading",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Mikołaj Kopernik is known as one of the fathers of modern astronomy. He is usually called by his Latin name Nicolaus Copernicus. He was born in 1473 in the city of Torun in a rich family. His father was Polish, and his mother was German. He was the youngest of five children. He studied first in Krakow university and then went to Italy to continue and complete his education. Both in Poland and in Italy he studied mathematics and astronomy. In Italy he also got interested in medicine. All his life Copernicus was very religious. As a young man, he became a monk and never had a family of his own.   Copernicus thought that it was impossible to understand astronomy without using mathematics. At that time people believed that the Earth was the centre of the universe.  So the Sun, the Moon and all planets and stars were moving around our planet. This theory came from ancient Greece. Some people think that Copernicus knew about this second theory, which  was also  born in Greece. That second theory put the Sun in the centre. It was called heliocentric.  Using mathematics, Copernicus explained that the heliocentric theory was correct."
+      }
+    ],
+    "parts": [
+      {
+        "name": "Reading. Part 1. Questions 1-7.",
+        "exercise": "Read the text and then read the sentences (1-7). Mark them as TRUE or FALSE.",
+        "type": "true-false-questions",
+        "contents": [
+          {
+            "type": "question",
+            "question": "The Latin name Copernicus is used not so often as his real name."
+          },
+          {
+            "type": "question",
+            "question": "He was the 5 th child in the family."
+          },
+          {
+            "type": "question",
+            "question": "Copernicus was always interested in medicine."
+          },
+          {
+            "type": "question",
+            "question": "He never married because he was a monk."
+          },
+          {
+            "type": "question",
+            "question": "The two theories of the universe came from ancient Greece."
+          },
+          {
+            "type": "question",
+            "question": "It is clear that Copernicus knew about the Greek heliocentric theory."
+          },
+          {
+            "type": "question",
+            "question": "Copernicus used calculations to prove the heliocentric theory."
+          }
+        ],
+        "keys": {
+          "1": "false",
+          "2": "true",
+          "3": "false",
+          "4": "true",
+          "5": "true",
+          "6": "false",
+          "7": "true"
+        }
+      },
+      {
+        "name": "Reading. Part 2. Questions 8-12.",
+        "exercise": "Fill in the gaps in the sentences (8-12) with ONE or TWO words from the text.  Do NOT change the words from the text.",
+        "type": "filling-gaps-forms",
+        "contents": [
+          {
+            "type": "gaps-text",
+            "text": "Copernicus finished his {(1)} in Italy."
+          },
+          {
+            "type": "gaps-text",
+            "text": "He did not study {(2)} in Krakow."
+          },
+          {
+            "type": "gaps-text",
+            "text": "Copernicus knew that he needed {(3)} to understand the universe."
+          },
+          {
+            "type": "gaps-text",
+            "text": "Both theories of the universe came from {(4)}"
+          },
+          {
+            "type": "gaps-text",
+            "text": "He used {(5)} to prove that the sun was in the centre."
+          }
+        ],
+        "keys": {
+          "1": "education",
+          "2": "medicine",
+          "3": "mathematics",
+          "4": ["Ancient Greece", "Greece"],
+          "5": "mathematics"
+        }
+      }
+    ]
+  }
+]

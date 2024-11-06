@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 0 0% 10.2%;
+
+  --primary-orange: 32.1 91.8% 56.9%;
+  --primary-orange-dark: 31.4 83.2% 51%;
+  --primary-orange-darker: 31.5 78.4% 45.3%;
+
+  --primary-blue: 228.2 54.3% 38.6%;
+  --primary-blue-dark: 228.1 62% 35.1%;
+  --primary-blue-darker: 228 66.9% 30.8%;
+
+  --primary-green: 78 81.6% 61.6%;
+  --primary-green-dark: 77.8 71.9% 53.9%;
+  --primary-green-darker: 78.1 65.3% 48.6%;
+
+  --neutral: 0 0% 92.2%;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+* {
+  box-sizing: border-box !important;
+  margin: 0;
+  padding: 0;
+  @apply select-none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  color: var(--foreground);
+  background: var(--background);
+  font-family:
+    "Nebulas",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  @apply shaped-bg;
+}
+
+.shaped-bg {
+  background-image: url("../../public/noise_background.webp");
+}
