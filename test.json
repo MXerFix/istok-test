@@ -391,7 +391,7 @@
           }
         ],
         "answers": {
-          "0": ["many", "much", "so", "such"],
+          "0": ["much"],
           "1": ["for", "in", "on", "about"],
           "2": ["a", "an", "the", "no article"],
           "3": ["A lot", "Mostly", "Some", "Any"],
@@ -429,7 +429,7 @@
           }
         ],
         "answers": {
-          "0": ["another", "other", "some", "all"],
+          "0": ["other"],
           "1": ["an", "a", "no article", "the"],
           "2": ["with", "for", "to", "from"],
           "3": ["at", "on", "from", "in"],
